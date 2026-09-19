@@ -264,38 +264,19 @@
         <p>&copy; 2026 PaddockActu - Tous droits réservés.</p>
     </footer>
 
-    <script>
-        function masquerToutesLesPages() {
-            document.getElementById('page-accueil').classList.add('hidden');
-            document.getElementById('page-catalogue').classList.add('hidden');
-            document.getElementById('page-classement').classList.add('hidden');
-            document.getElementById('article-1').classList.add('hidden');
-        }
+   <script>
+    function masquerToutesLesPages() {
+        document.getElementById('page-accueil').classList.add('hidden');
+        document.getElementById('page-catalogue').classList.add('hidden');
+        document.getElementById('page-classements').classList.add('hidden');
+    }
 
-        function afficherAccueil() {
-            masquerToutesLesPages();
-            document.getElementById('page-accueil').classList.remove('hidden');
-            window.scrollTo(0, 0);
-        }
-
-        function afficherCatalogue() {
-            masquerToutesLesPages();
-            document.getElementById('page-catalogue').classList.remove('hidden');
-            window.scrollTo(0, 0);
-        }
-
-        function afficherClassement() {
-            masquerToutesLesPages();
-            document.getElementById('page-classement').classList.remove('hidden');
-            window.scrollTo(0, 0);
-        }
-
-        function afficherArticle(idArticle) {
-            masquerToutesLesPages();
-            document.getElementById(idArticle).classList.remove('hidden');
-            window.scrollTo(0, 0);
-        }
-
+    function afficherPage(idPage) {
+        masquerToutesLesPages();
+        document.getElementById(idPage).classList.remove('hidden');
+        window.scrollTo(0, 0);
+    }
+</script>
         function changerCategorie() {
             const choix = document.getElementById('select-categorie').value;
             document.getElementById('table-motogp').classList.add('hidden');

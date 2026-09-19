@@ -19,16 +19,17 @@
 <body>
 
     <header>
-        <div class="logo" onclick="afficherAccueil()">Paddock<span>Actu</span></div>
+        <div class="logo" onclick="afficherPage('page-accueil')">Paddock<span>Actu</span></div>
         <nav>
             <ul>
-                <li><a href="#accueil" onclick="afficherAccueil()">Accueil</a></li>
-                <li><a href="#tous-les-articles" onclick="afficherCatalogue()">Tous les articles</a></li>
-                <li><a href="#classements" onclick="afficherClassement()">Classements</a></li>
+                <li><a href="#accueil" onclick="afficherPage('page-accueil')">Accueil</a></li>
+                <li><a href="#tous-les-articles" onclick="afficherPage('page-catalogue')">Tous les articles</a></li>
+                <li><a href="#classements" onclick="afficherPage('page-classements')">Classements</a></li>
             </ul>
         </nav>
     </header>
 
+    <!-- PAGE D'ACCUEIL -->
     <div id="page-accueil">
         <section id="accueil" class="hero">
             <div class="hero-text">
@@ -42,7 +43,7 @@
             <section id="actus" class="news-section">
                 <h2>Articles Récents</h2>
               
-                <div class="card-link" onclick="afficherArticle('article-1')"> 
+                <a href="articles/preview-autriche-2026.html" class="card-link"> 
                     <article class="card">
                         <div class="card-img" style="background-color: #555;"></div>
                         <div class="card-content">
@@ -51,7 +52,7 @@
                             <p>Tout ce qu'il faut savoir avant le début du week-end en Autriche</p>
                         </div>
                     </article>
-                </div>
+                </a>
             </section>
 
             <section class="standings-section">
@@ -90,23 +91,26 @@
         </main>
     </div>
 
+    <!-- PAGE CATALOGUE -->
     <div id="page-catalogue" class="container hidden">
         <h2>Tous les Articles</h2>
 
-        <a href="articles/preview-autriche-2026.html" class="card-link"> 
-    <article class="card">
-        <div class="card-img" style="background-color: #555;"></div>
-        <div class="card-content">
-            <span class="tag">Paddock</span>
-            <h3>Preview Grand Prix d'Autriche</h3>
-            <p>Tout ce qu'il faut savoir avant le début du week-end en Autriche</p>
+        <div class="news-grid">
+            <a href="articles/preview-autriche-2026.html" class="card-link"> 
+                <article class="card">
+                    <div class="card-img" style="background-color: #555;"></div>
+                    <div class="card-content">
+                        <span class="tag">Paddock</span>
+                        <h3>Preview Grand Prix d'Autriche</h3>
+                        <p>Tout ce qu'il faut savoir avant le début du week-end en Autriche</p>
+                    </div>
+                </article>
+            </a>
         </div>
-    </article>
-</a>
-            </div>
-        
+    </div>
 
-    <div id="page-classement" class="container hidden">
+    <!-- PAGE CLASSEMENTS -->
+    <div id="page-classements" class="container hidden">
         <h2>Classements Officiels</h2>
 
         <div class="filter-container">
@@ -146,53 +150,48 @@
                     <td>Aprilia Racing</td>
                     <td>241</td>
                 </tr>
-              <tr>
+                <tr>
                     <td>4</td>
                     <td>Fabio Di Giannantonio</td>
                     <td>Pertamina Enduro VR46 Racing Team</td>
                     <td>223</td>
-
-                 </tr>
-              <tr>
+                </tr>
+                <tr>
                     <td>5</td>
                     <td>Pedro Acosta</td>
                     <td>Red Bull KTM Factory Racing</td>
                     <td>209</td>
-
-                 </tr>
-              <tr>
+                </tr>
+                <tr>
                     <td>6</td>
                     <td>Ai Ogura</td>
                     <td>SuperFile Trackhouse MotoGP Team</td>
                     <td>209</td>
-
-                 </tr>
-              <tr>
+                </tr>
+                <tr>
                     <td>7</td>
                     <td>Raul Fernandez</td>
                     <td>SuperFile Trackhouse MotoGP Team</td>
                     <td>203</td>
-
-                 </tr>
-              <tr>
+                </tr>
+                <tr>
                     <td>8</td>
                     <td>Alex Marquez</td>
                     <td>BK8 Gresini Racing MotoGP</td>
                     <td>153</td>
-
-                 </tr>
-              <tr>
+                </tr>
+                <tr>
                     <td>9</td>
                     <td>Francesco Bagnaia</td>
                     <td>Ducati Lenovo Team</td>
                     <td>143</td>
-
-                 </tr>
-              <tr>
+                </tr>
+                <tr>
                     <td>10</td>
                     <td>Fermin Aldeguer</td>
                     <td>BK8 Gresini Racing MotoGP</td>
                     <td>105</td>
+                </tr>
             </tbody>
         </table>
 
@@ -259,24 +258,23 @@
         </table>
     </div>
 
-
     <footer>
         <p>&copy; 2026 PaddockActu - Tous droits réservés.</p>
     </footer>
 
-   <script>
-    function masquerToutesLesPages() {
-        document.getElementById('page-accueil').classList.add('hidden');
-        document.getElementById('page-catalogue').classList.add('hidden');
-        document.getElementById('page-classements').classList.add('hidden');
-    }
+    <script>
+        function masquerToutesLesPages() {
+            document.getElementById('page-accueil').classList.add('hidden');
+            document.getElementById('page-catalogue').classList.add('hidden');
+            document.getElementById('page-classements').classList.add('hidden');
+        }
 
-    function afficherPage(idPage) {
-        masquerToutesLesPages();
-        document.getElementById(idPage).classList.remove('hidden');
-        window.scrollTo(0, 0);
-    }
-</script>
+        function afficherPage(idPage) {
+            masquerToutesLesPages();
+            document.getElementById(idPage).classList.remove('hidden');
+            window.scrollTo(0, 0);
+        }
+
         function changerCategorie() {
             const choix = document.getElementById('select-categorie').value;
             document.getElementById('table-motogp').classList.add('hidden');

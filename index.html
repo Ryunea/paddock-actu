@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PaddockActu - Le site 100% Paddock</title>
+
+    <meta name="description" content="Toute l'actualité MotoGP, les analyses des Grands Prix, les classements et les coulisses du paddock en direct.">
+
+    <meta property="og:title" content="PaddockActu - Le site 100% Paddock">
+    <meta property="og:description" content="Retrouvez toutes les dernières infos du paddock MotoGP !">
+    <meta property="og:image" content="https://votre-site.com/image-apercu.jpg"> 
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo" onclick="afficherAccueil()">Paddock<span>Actu</span></div>
+        <nav>
+            <ul>
+                <li><a href="#accueil" onclick="afficherAccueil()">Accueil</a></li>
+                <li><a href="#tous-les-articles" onclick="afficherCatalogue()">Tous les articles</a></li>
+                <li><a href="#classements" onclick="afficherClassement()">Classements</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="page-accueil">
+        <section id="accueil" class="hero">
+            <div class="hero-text">
+                <h1>Au cœur de la vitesse</h1>
+                <p>Toute l'actualité, les résultats et analyses de la saison MotoGP.</p>
+                <a href="#actus" class="btn">Articles Récents</a>
+            </div>
+        </section>
+
+        <main class="container">
+            <section id="actus" class="news-section">
+                <h2>Articles Récents</h2>
+              
+                <div class="card-link" onclick="afficherArticle('article-1')"> 
+                    <article class="card">
+                        <div class="card-img" style="background-color: #555;"></div>
+                        <div class="card-content">
+                            <span class="tag">Paddock</span>
+                            <h3>Preview Grand Prix d'Autriche</h3>
+                            <p>Tout ce qu'il faut savoir avant le début du week-end en Autriche</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="standings-section">
+                <h2>Classement Pilotes MotoGP (Top 3)</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Pos.</th>
+                            <th>Pilote</th>
+                            <th>Écurie</th>
+                            <th>Points</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Marc Marquez</td>
+                            <td>Ducati Lenovo Team</td>
+                            <td>274</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Jorge Martin</td>
+                            <td>Aprilia Racing</td>
+                            <td>274</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Marco Bezzecchi</td>
+                            <td>Aprilia Racing</td>
+                            <td>241</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+    </div>
+
+    <div id="page-catalogue" class="container hidden">
+        <h2>Tous les Articles</h2>
+
+        <a href="articles/preview-autriche-2026.html" class="card-link"> 
+    <article class="card">
+        <div class="card-img" style="background-color: #555;"></div>
+        <div class="card-content">
+            <span class="tag">Paddock</span>
+            <h3>Preview Grand Prix d'Autriche</h3>
+            <p>Tout ce qu'il faut savoir avant le début du week-end en Autriche</p>
+        </div>
+    </article>
+</a>
+            </div>
+        
+
+    <div id="page-classement" class="container hidden">
+        <h2>Classements Officiels</h2>
+
+        <div class="filter-container">
+            <label for="select-categorie">Catégorie :</label>
+            <select id="select-categorie" onchange="changerCategorie()">
+                <option value="motogp">MotoGP</option>
+                <option value="moto2">Moto2</option>
+                <option value="moto3">Moto3</option>
+            </select>
+        </div>
+
+        <table id="table-motogp">
+            <thead>
+                <tr>
+                    <th>Pos.</th>
+                    <th>Pilote</th>
+                    <th>Écurie</th>
+                    <th>Points</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Marc Marquez</td>
+                    <td>Ducati Lenovo Team</td>
+                    <td>274</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Jorge Martin</td>
+                    <td>Aprilia Racing</td>
+                    <td>274</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Marco Bezzecchi</td>
+                    <td>Aprilia Racing</td>
+                    <td>241</td>
+                </tr>
+              <tr>
+                    <td>4</td>
+                    <td>Fabio Di Giannantonio</td>
+                    <td>Pertamina Enduro VR46 Racing Team</td>
+                    <td>223</td>
+
+                 </tr>
+              <tr>
+                    <td>5</td>
+                    <td>Pedro Acosta</td>
+                    <td>Red Bull KTM Factory Racing</td>
+                    <td>209</td>
+
+                 </tr>
+              <tr>
+                    <td>6</td>
+                    <td>Ai Ogura</td>
+                    <td>SuperFile Trackhouse MotoGP Team</td>
+                    <td>209</td>
+
+                 </tr>
+              <tr>
+                    <td>7</td>
+                    <td>Raul Fernandez</td>
+                    <td>SuperFile Trackhouse MotoGP Team</td>
+                    <td>203</td>
+
+                 </tr>
+              <tr>
+                    <td>8</td>
+                    <td>Alex Marquez</td>
+                    <td>BK8 Gresini Racing MotoGP</td>
+                    <td>153</td>
+
+                 </tr>
+              <tr>
+                    <td>9</td>
+                    <td>Francesco Bagnaia</td>
+                    <td>Ducati Lenovo Team</td>
+                    <td>143</td>
+
+                 </tr>
+              <tr>
+                    <td>10</td>
+                    <td>Fermin Aldeguer</td>
+                    <td>BK8 Gresini Racing MotoGP</td>
+                    <td>105</td>
+            </tbody>
+        </table>
+
+        <table id="table-moto2" class="hidden">
+            <thead>
+                <tr>
+                    <th>Pos.</th>
+                    <th>Pilote</th>
+                    <th>Écurie</th>
+                    <th>Points</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Manuel Gonzalez</td>
+                    <td>LIQUI MOLY Dynavolt Intact GP</td>
+                    <td>232.5</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Izan Guevara</td>
+                    <td>BLU CRU Pramac Yamaha Moto2</td>
+                    <td>185</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Ivan Ortola</td>
+                    <td>QJMOTOR - Green Power - MSI</td>
+                    <td>157.5</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table id="table-moto3" class="hidden">
+            <thead>
+                <tr>
+                    <th>Pos.</th>
+                    <th>Pilote</th>
+                    <th>Écurie</th>
+                    <th>Points</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Maximo Quiles</td>
+                    <td>CFMoto Gaviota Aspar Team</td>
+                    <td>281</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>David Almansa</td>
+                    <td>Liqui Moly Dynavolt Intact GP</td>
+                    <td>174</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Alvaro Carpe</td>
+                    <td>Red Bull KTM Ajo</td>
+                    <td>159</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+    <footer>
+        <p>&copy; 2026 PaddockActu - Tous droits réservés.</p>
+    </footer>
+
+    <script>
+        function masquerToutesLesPages() {
+            document.getElementById('page-accueil').classList.add('hidden');
+            document.getElementById('page-catalogue').classList.add('hidden');
+            document.getElementById('page-classement').classList.add('hidden');
+            document.getElementById('article-1').classList.add('hidden');
+        }
+
+        function afficherAccueil() {
+            masquerToutesLesPages();
+            document.getElementById('page-accueil').classList.remove('hidden');
+            window.scrollTo(0, 0);
+        }
+
+        function afficherCatalogue() {
+            masquerToutesLesPages();
+            document.getElementById('page-catalogue').classList.remove('hidden');
+            window.scrollTo(0, 0);
+        }
+
+        function afficherClassement() {
+            masquerToutesLesPages();
+            document.getElementById('page-classement').classList.remove('hidden');
+            window.scrollTo(0, 0);
+        }
+
+        function afficherArticle(idArticle) {
+            masquerToutesLesPages();
+            document.getElementById(idArticle).classList.remove('hidden');
+            window.scrollTo(0, 0);
+        }
+
+        function changerCategorie() {
+            const choix = document.getElementById('select-categorie').value;
+            document.getElementById('table-motogp').classList.add('hidden');
+            document.getElementById('table-moto2').classList.add('hidden');
+            document.getElementById('table-moto3').classList.add('hidden');
+
+            document.getElementById('table-' + choix).classList.remove('hidden');
+        }
+    </script>
+
+</body>
+</html>

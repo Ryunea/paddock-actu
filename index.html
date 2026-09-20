@@ -14,6 +14,34 @@
     <meta property="og:type" content="website">
 
     <link rel="stylesheet" href="style.css">
+    <style>
+        .filter-tags {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .tag-btn {
+            background-color: #15151e;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        .tag-btn:hover {
+            background-color: #e10600;
+        }
+
+        .tag-btn.active {
+            background-color: #e10600;
+            font-weight: bold;
+        }
+    </style>
 </head>
 
 <body>
@@ -29,7 +57,6 @@
         </nav>
     </header>
 
-    <!-- PAGE D'ACCUEIL -->
     <div id="page-accueil">
         <section id="accueil" class="hero">
             <div class="hero-text">
@@ -105,12 +132,19 @@
         </main>
     </div>
 
-    <!-- PAGE TOUS LES ARTICLES (SECTION VUE DEPUIS VOTRE CAPTURE D'ÉCRAN) -->
     <div id="page-catalogue" class="container hidden">
         <h2>Tous les Articles</h2>
 
+        <div class="filter-tags">
+            <button class="tag-btn active" onclick="filtrerArticles('all', this)">Tous</button>
+            <button class="tag-btn" onclick="filtrerArticles('motogp', this)">MotoGP</button>
+            <button class="tag-btn" onclick="filtrerArticles('paddock', this)">Paddock</button>
+            <button class="tag-btn" onclick="filtrerArticles('moto2', this)">Moto2</button>
+            <button class="tag-btn" onclick="filtrerArticles('moto3', this)">Moto3</button>
+        </div>
+
         <div class="news-grid">
-            <a href="articles/sprint-autriche-2026.html" class="card-link"> 
+            <a href="articles/sprint-autriche-2026.html" class="card-link" data-tag="motogp"> 
                 <article class="card">
                     <div class="card-img" style="background-color: #e10600;"></div>
                     <div class="card-content">
@@ -121,7 +155,7 @@
                 </article>
             </a>
 
-            <a href="articles/preview-autriche-2026.html" class="card-link"> 
+            <a href="articles/preview-autriche-2026.html" class="card-link" data-tag="paddock"> 
                 <article class="card">
                     <div class="card-img" style="background-color: #555;"></div>
                     <div class="card-content">
@@ -134,7 +168,6 @@
         </div>
     </div>
 
-    <!-- PAGE CLASSEMENTS -->
     <div id="page-classements" class="container hidden">
         <h2>Classements Officiels</h2>
 
@@ -307,6 +340,24 @@
             document.getElementById('table-moto3').classList.add('hidden');
 
             document.getElementById('table-' + choix).classList.remove('hidden');
+        }
+
+        function filtrerArticles(tag, elementBouton) {
+            const boutons = document.querySelectorAll('.tag-btn');
+            boutons.forEach(btn => btn.classList.remove('active'));
+            if (elementBouton) {
+                elementBouton.classList.add('active');
+            }
+
+            const articles = document.querySelectorAll('#page-catalogue .card-link');
+            articles.forEach(article => {
+                const articleTag = article.getAttribute('data-tag');
+                if (tag === 'all' || articleTag === tag) {
+                    article.style.display = 'block';
+                } else {
+                    article.style.display = 'none';
+                }
+            });
         }
     </script>
 

@@ -332,6 +332,60 @@
                 }
             });
         }
+
+        async function chargerClassement(categorie) {
+            const tbody = document.querySelector(`#table-${categorie} tbody`);
+            if (!tbody) return;
+
+            try {
+                // Lecture des fichiers JSON créés par l'Action GitHub
+                const response = await fetch(`./data/${categorie}.json`);
+                if (!response.ok) return;
+                const data = await response.json();
+
+                if (!data || !data.classification || data.classification.length === 0) return;
+
+                // Mise à jour du tableau
+                tbody.innerHTML = "";
+
+                data.classification.forEach(item => {
+                    const tr = document.createElement("tr");
+                    tr.innerHTML = `
+                        <td>${item.position || ''}</td>
+                        <td>${item.rider ? item.rider.full_name : ''}</td>
+                        <td>${item.team ? item.team.name : ''}</td>
+                        <td>${item.points || 0}</td>
+                    `;
+                    tbody.appendChild(tr);
+                });
+
+                // Mise à jour du Top 3 de l'accueil si c'est la catégorie MotoGP
+                if (categorie === 'motogp') {
+                    const homeTbody = document.querySelector('#table-home-motogp tbody');
+                    if (homeTbody && data.classification.length >= 3) {
+                        homeTbody.innerHTML = "";
+                        data.classification.slice(0, 3).forEach(item => {
+                            const tr = document.createElement("tr");
+                            tr.innerHTML = `
+                                <td>${item.position || ''}</td>
+                                <td>${item.rider ? item.rider.full_name : ''}</td>
+                                <td>${item.team ? item.team.name : ''}</td>
+                                <td>${item.points || 0}</td>
+                            `;
+                            homeTbody.appendChild(tr);
+                        });
+                    }
+                }
+            } catch (e) {
+                console.log("Fichiers JSON locaux non encore générés, affichage des données par défaut.");
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", () => {
+            chargerClassement("motogp");
+            chargerClassement("moto2");
+            chargerClassement("moto3");
+        });
     </script>
 
 </body>

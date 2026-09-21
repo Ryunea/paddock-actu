@@ -68,8 +68,9 @@
             height: 350px;
             border-radius: 8px;
             margin-bottom: 2rem;
-            object-fit: cover;
-            display: block;
+            background: url('https://365austria.com/wp-content/uploads/2024/09/c_PhilipPlatzer_Bulle.jpg') no-repeat center center;
+            background-size: cover;
+            background-attachment: fixed; /* C'est cette ligne qui bloque l'image pendant le défilement */
         }
 
         .article-body {
@@ -124,7 +125,7 @@
                 </div>
             </header>
 
-            <img src="https://365austria.com/wp-content/uploads/2024/09/c_PhilipPlatzer_Bulle.jpg" alt="Grand Prix d'Autriche" class="article-banner">
+            <div class="article-banner"></div>
 
             <div class="article-body">
                 <p>

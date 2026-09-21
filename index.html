@@ -338,14 +338,12 @@
             if (!tbody) return;
 
             try {
-                // Lecture des fichiers JSON créés par l'Action GitHub
-                const response = await fetch(`./data/${categorie}.json`);
+                const response = await fetch(`data/${categorie}.json?v=${new Date().getTime()}`);
                 if (!response.ok) return;
                 const data = await response.json();
 
                 if (!data || !data.classification || data.classification.length === 0) return;
 
-                // Mise à jour du tableau
                 tbody.innerHTML = "";
 
                 data.classification.forEach(item => {
@@ -359,7 +357,6 @@
                     tbody.appendChild(tr);
                 });
 
-                // Mise à jour du Top 3 de l'accueil si c'est la catégorie MotoGP
                 if (categorie === 'motogp') {
                     const homeTbody = document.querySelector('#table-home-motogp tbody');
                     if (homeTbody && data.classification.length >= 3) {
@@ -377,7 +374,7 @@
                     }
                 }
             } catch (e) {
-                console.log("Fichiers JSON locaux non encore générés, affichage des données par défaut.");
+                console.log("Erreur de chargement des classements.");
             }
         }
 
@@ -389,4 +386,3 @@
     </script>
 
 </body>
-</html>

@@ -1,1 +1,206 @@
-{"details":"Required request parameter 'seasonUuid' for method parameter type UUID is not present"}
+{
+  "seasonUuid": "e88b4e43-2209-47aa-8e83-0e0b1cedde6e",
+  "category": "motogp",
+  "classification": [
+    {
+      "position": 1,
+      "rider": {
+        "full_name": "Jorge Martín"
+      },
+      "team": {
+        "name": "Aprilia Racing"
+      },
+      "points": 306
+    },
+    {
+      "position": 2,
+      "rider": {
+        "full_name": "Marc Márquez"
+      },
+      "team": {
+        "name": "Ducati Lenovo Team"
+      },
+      "points": 294
+    },
+    {
+      "position": 3,
+      "rider": {
+        "full_name": "Marco Bezzecchi"
+      },
+      "team": {
+        "name": "Aprilia Racing"
+      },
+      "points": 264
+    },
+    {
+      "position": 4,
+      "rider": {
+        "full_name": "Pedro Acosta"
+      },
+      "team": {
+        "name": "Red Bull KTM Factory Racing"
+      },
+      "points": 234
+    },
+    {
+      "position": 5,
+      "rider": {
+        "full_name": "Fabio Di Giannantonio"
+      },
+      "team": {
+        "name": "Pertamina Enduro VR46 Racing Team"
+      },
+      "points": 230
+    },
+    {
+      "position": 6,
+      "rider": {
+        "full_name": "Ai Ogura"
+      },
+      "team": {
+        "name": "SuperFile Trackhouse MotoGP Team"
+      },
+      "points": 222
+    },
+    {
+      "position": 7,
+      "rider": {
+        "full_name": "Raúl Fernández"
+      },
+      "team": {
+        "name": "SuperFile Trackhouse MotoGP Team"
+      },
+      "points": 203
+    },
+    {
+      "position": 8,
+      "rider": {
+        "full_name": "Álex Márquez"
+      },
+      "team": {
+        "name": "BK8 Gresini Racing MotoGP"
+      },
+      "points": 158
+    },
+    {
+      "position": 9,
+      "rider": {
+        "full_name": "Francesco Bagnaia"
+      },
+      "team": {
+        "name": "Ducati Lenovo Team"
+      },
+      "points": 156
+    },
+    {
+      "position": 10,
+      "rider": {
+        "full_name": "Fermín Aldeguer"
+      },
+      "team": {
+        "name": "BK8 Gresini Racing MotoGP"
+      },
+      "points": 115
+    },
+    {
+      "position": 11,
+      "rider": {
+        "full_name": "Luca Marini"
+      },
+      "team": {
+        "name": "Honda HRC Castrol"
+      },
+      "points": 98
+    },
+    {
+      "position": 12,
+      "rider": {
+        "full_name": "Enea Bastianini"
+      },
+      "team": {
+        "name": "Red Bull KTM Tech3"
+      },
+      "points": 97
+    },
+    {
+      "position": 13,
+      "rider": {
+        "full_name": "Brad Binder"
+      },
+      "team": {
+        "name": "Red Bull KTM Factory Racing"
+      },
+      "points": 94
+    },
+    {
+      "position": 14,
+      "rider": {
+        "full_name": "Diogo Moreira"
+      },
+      "team": {
+        "name": "Pro Honda LCR"
+      },
+      "points": 65
+    },
+    {
+      "position": 15,
+      "rider": {
+        "full_name": "Fabio Quartararo"
+      },
+      "team": {
+        "name": "Monster Energy Yamaha MotoGP Team"
+      },
+      "points": 61
+    },
+    {
+      "position": 16,
+      "rider": {
+        "full_name": "Franco Morbidelli"
+      },
+      "team": {
+        "name": "Pertamina Enduro VR46 Racing Team"
+      },
+      "points": 56
+    },
+    {
+      "position": 17,
+      "rider": {
+        "full_name": "Johann Zarco"
+      },
+      "team": {
+        "name": "Castrol Honda LCR"
+      },
+      "points": 45
+    },
+    {
+      "position": 18,
+      "rider": {
+        "full_name": "Joan Mir"
+      },
+      "team": {
+        "name": "Honda HRC Castrol"
+      },
+      "points": 33
+    },
+    {
+      "position": 19,
+      "rider": {
+        "full_name": "Jack Miller"
+      },
+      "team": {
+        "name": "Prima Pramac Yamaha MotoGP"
+      },
+      "points": 28
+    },
+    {
+      "position": 20,
+      "rider": {
+        "full_name": "Álex Rins"
+      },
+      "team": {
+        "name": "Monster Energy Yamaha MotoGP Team"
+      },
+      "points": 24
+    }
+  ]
+}

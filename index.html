@@ -14,32 +14,34 @@
     <meta property="og:type" content="website">
 
     <link rel="stylesheet" href="style.css">
+
     <style>
         .filter-tags {
             display: flex;
             gap: 10px;
-            margin-bottom: 20px;
+            margin-bottom: 25px;
             flex-wrap: wrap;
         }
 
-        .tag-btn {
+        .filter-btn {
             background-color: #15151e;
-            color: white;
-            border: none;
+            color: #fff;
+            border: 2px solid transparent;
             padding: 8px 16px;
             border-radius: 20px;
             cursor: pointer;
             font-size: 0.9rem;
-            transition: background-color 0.3s, transform 0.2s;
+            font-weight: 600;
+            transition: all 0.3s ease;
         }
 
-        .tag-btn:hover {
+        .filter-btn:hover {
             background-color: #e10600;
         }
 
-        .tag-btn.active {
+        .filter-btn.active {
             background-color: #e10600;
-            font-weight: bold;
+            border-color: #ffffff;
         }
     </style>
 </head>
@@ -76,6 +78,17 @@
                             <div class="card-img" style="background-color: #e10600;"></div>
                             <div class="card-content">
                                 <span class="tag">MotoGP</span>
+                                <h3>Grand Prix d'Autriche : Une course mouvementée au Red Bull Ring</h3>
+                                <p>Résumé complet de la victoire historique de Pedro Acosta, du podium d'Aprilia et des rebondissements de la course.</p>
+                            </div>
+                        </article>
+                    </a>
+
+                    <a href="articles/sprint-autriche-2026.html" class="card-link"> 
+                        <article class="card">
+                            <div class="card-img" style="background-color: #e10600;"></div>
+                            <div class="card-content">
+                                <span class="tag">MotoGP</span>
                                 <h3>Sprint mouvementé en Autriche</h3>
                                 <p>Résumé complet des essais, des qualifications et d'une course sprint folle au Red Bull Ring.</p>
                             </div>
@@ -88,7 +101,7 @@
                             <div class="card-content">
                                 <span class="tag">Paddock</span>
                                 <h3>Preview Grand Prix d'Autriche</h3>
-                                <p>Tout ce qu'il faut savoir avant le début du week-end en Autriche</p>
+                                <p>Tout ce qu'il faut savoir avant le début du week-end en Autriche.</p>
                             </div>
                         </article>
                     </a>
@@ -136,14 +149,25 @@
         <h2>Tous les Articles</h2>
 
         <div class="filter-tags">
-            <button class="tag-btn active" onclick="filtrerArticles('all', this)">Tous</button>
-            <button class="tag-btn" onclick="filtrerArticles('motogp', this)">MotoGP</button>
-            <button class="tag-btn" onclick="filtrerArticles('paddock', this)">Paddock</button>
-            <button class="tag-btn" onclick="filtrerArticles('moto2', this)">Moto2</button>
-            <button class="tag-btn" onclick="filtrerArticles('moto3', this)">Moto3</button>
+            <button class="filter-btn active" onclick="filtrerArticles('tous', this)">Tous</button>
+            <button class="filter-btn" onclick="filtrerArticles('motogp', this)">MotoGP</button>
+            <button class="filter-btn" onclick="filtrerArticles('paddock', this)">Paddock</button>
+            <button class="filter-btn" onclick="filtrerArticles('moto2', this)">Moto2</button>
+            <button class="filter-btn" onclick="filtrerArticles('moto3', this)">Moto3</button>
         </div>
 
         <div class="news-grid">
+            <a href="articles/sprint-autriche-2026.html" class="card-link" data-tag="motogp"> 
+                <article class="card">
+                    <div class="card-img" style="background-color: #e10600;"></div>
+                    <div class="card-content">
+                        <span class="tag">MotoGP</span>
+                        <h3>Grand Prix d'Autriche : Une course mouvementée au Red Bull Ring</h3>
+                        <p>Résumé complet de la victoire historique de Pedro Acosta, du podium d'Aprilia et des rebondissements de la course.</p>
+                    </div>
+                </article>
+            </a>
+
             <a href="articles/sprint-autriche-2026.html" class="card-link" data-tag="motogp"> 
                 <article class="card">
                     <div class="card-img" style="background-color: #e10600;"></div>
@@ -161,7 +185,7 @@
                     <div class="card-content">
                         <span class="tag">Paddock</span>
                         <h3>Preview Grand Prix d'Autriche</h3>
-                        <p>Tout ce qu'il faut savoir avant le début du week-end en Autriche</p>
+                        <p>Tout ce qu'il faut savoir avant le début du week-end en Autriche.</p>
                     </div>
                 </article>
             </a>
@@ -342,17 +366,16 @@
             document.getElementById('table-' + choix).classList.remove('hidden');
         }
 
-        function filtrerArticles(tag, elementBouton) {
-            const boutons = document.querySelectorAll('.tag-btn');
+        function filtrerArticles(tag, boutonClique) {
+            const boutons = document.querySelectorAll('.filter-btn');
             boutons.forEach(btn => btn.classList.remove('active'));
-            if (elementBouton) {
-                elementBouton.classList.add('active');
-            }
+            boutonClique.classList.add('active');
 
             const articles = document.querySelectorAll('#page-catalogue .card-link');
+
             articles.forEach(article => {
                 const articleTag = article.getAttribute('data-tag');
-                if (tag === 'all' || articleTag === tag) {
+                if (tag === 'tous' || articleTag === tag) {
                     article.style.display = 'block';
                 } else {
                     article.style.display = 'none';

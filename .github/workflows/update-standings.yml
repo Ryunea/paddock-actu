@@ -2,7 +2,7 @@ name: Mise a jour automatique des classements
 
 on:
   schedule:
-    - cron: '00 16 * * 1'
+    - cron: '0 15 * * 0' # Programmé pour le dimanche à 17h (heure française)
   workflow_dispatch:
 
 jobs:
@@ -18,13 +18,14 @@ jobs:
       - name: Télécharger les classements MotoGP, Moto2 et Moto3
         run: |
           mkdir -p data
-          curl -s "https://api.motogp.pulselive.com/motogp/v1/results/standings?seasonYear=2026&categoryUuid=e8c110ad-64aa-4e8e-8a86-f2f152f6a942" > data/motogp.json
-          curl -s "https://api.motogp.pulselive.com/motogp/v1/results/standings?seasonYear=2026&categoryUuid=549640b8-fd9c-4245-acfd-60e4bc38b25c" > data/moto2.json
-          curl -s "https://api.motogp.pulselive.com/motogp/v1/results/standings?seasonYear=2026&categoryUuid=954f7e65-2ef2-4423-b949-4961cc603e45" > data/moto3.json
+          curl -s "https://api.motogp.pulselive.com/motogp/v1/results/standings?seasonYear=2026&categoryUuid=e8c110ad-64aa-4e8e-8a86-f2f152f6a942&limit=100" > data/motogp.json
+          curl -s "https://api.motogp.pulselive.com/motogp/v1/results/standings?seasonYear=2026&categoryUuid=549640b8-fd9c-4245-acfd-60e4bc38b25c&limit=100" > data/moto2.json
+          curl -s "https://api.motogp.pulselive.com/motogp/v1/results/standings?seasonYear=2026&categoryUuid=954f7e65-2ef2-4423-b949-4961cc603e45&limit=100" > data/moto3.json
 
       - name: Publier les modifications
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/*.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "bot: mise à jour automatique des classements complets" && git push)
           git diff --quiet && git diff --staged --quiet || (git commit -m "bot: mise à jour automatique des classements" && git push)

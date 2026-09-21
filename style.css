@@ -59,7 +59,7 @@ nav ul li a:hover {
 }
 
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFlH_iRfn1OSp5dLkPQ0yYdzSbGnXxXX__iV1APEsw7ySgOEFuQ7D9PdgC&s=10') no-repeat center top;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFlH_iRfn1OSp5dLkPQ0yYdzSbGnXxXX__iV1APEsw7ySgOEFuQ7D9PdgC&s=10') no-repeat center 25%;
     background-size: cover;
     height: 50vh;
     display: flex;

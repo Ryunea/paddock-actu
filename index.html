@@ -337,8 +337,10 @@
             const tbody = document.querySelector(`#table-${categorie} tbody`);
             if (!tbody) return;
 
+            const seasonUuid = "e88b4e43-2209-47aa-8e83-0e0b1cedde6e";
+
             try {
-                const response = await fetch(`data/${categorie}.json?v=${new Date().getTime()}`);
+                const response = await fetch(`data/${categorie}.json?seasonUuid=${seasonUuid}&v=${new Date().getTime()}`);
                 if (!response.ok) return;
                 const data = await response.json();
 
@@ -386,3 +388,4 @@
     </script>
 
 </body>
+</html>

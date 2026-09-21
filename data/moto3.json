@@ -1,1 +1,1 @@
-{"details":"Required request parameter 'seasonUuid' for method parameter type UUID is not present"}
+{"error_type":"season_not_found","message":"Season e3358f63-ee54-4667-9c9b-0dd8fdd83deb not found."}

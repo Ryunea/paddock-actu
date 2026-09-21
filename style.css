@@ -108,7 +108,6 @@ h2 {
     gap: 1.5rem;
 }
 
-/* RENDRE LES CARTES ET LEURS LIENS TOTALEMENT CLIQUABLES */
 .card-link {
     text-decoration: none;
     color: inherit;
@@ -269,4 +268,54 @@ footer {
     color: white;
     text-align: center;
     padding: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+        padding: 15px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+        padding: 0;
+    }
+
+    .news-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .hero {
+        padding: 40px 15px;
+    }
+
+    .hero-text h1 {
+        font-size: 1.8rem;
+    }
+
+    .filter-tags {
+        justify-content: center;
+    }
+
+    .filter-btn {
+        padding: 6px 12px;
+        font-size: 0.8rem;
+    }
+
+    .standings-section, #page-classements {
+        overflow-x: auto;
+    }
+
+    table {
+        width: 100%;
+        font-size: 0.85rem;
+    }
+
+    th, td {
+        padding: 8px 5px;
+    }
 }

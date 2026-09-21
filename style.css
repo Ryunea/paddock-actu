@@ -25,9 +25,15 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 5%;
-    position: sticky;
+    position: fixed;
     top: 0;
+    left: 0;
+    width: 100%;
     z-index: 100;
+}
+
+body {
+    padding-top: 70px;
 }
 
 .logo {
@@ -241,6 +247,8 @@ tr:nth-child(even) {
     background-color: #333;
     border-radius: 6px;
     margin-bottom: 1.5rem;
+    position: sticky;
+    top: 90px;
 }
 
 .article-content {
@@ -276,6 +284,10 @@ footer {
         gap: 15px;
         text-align: center;
         padding: 15px;
+    }
+
+    body {
+        padding-top: 130px;
     }
 
     nav ul {

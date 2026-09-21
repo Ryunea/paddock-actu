@@ -127,24 +127,6 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>Jorge Martín</td>
-                            <td>Aprilia Racing</td>
-                            <td>306</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Marc Márquez</td>
-                            <td>Ducati Lenovo Team</td>
-                            <td>294</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>Marco Bezzecchi</td>
-                            <td>Aprilia Racing</td>
-                            <td>264</td>
-                        </tr>
                     </tbody>
                 </table>
             </section>
@@ -294,9 +276,9 @@
         }
 
         const APIS = {
-            motogp: "https://api.motogp.pulselive.com/motogp/v1/results/standings?seasonYear=2026&categoryUuid=e8c110ad-64aa-4e8e-8a86-f2f152f6a942",
-            moto2: "https://api.motogp.pulselive.com/motogp/v1/results/standings?seasonYear=2026&categoryUuid=549640b8-fd9c-4245-acfd-60e4bc38b25c",
-            moto3: "https://api.motogp.pulselive.com/motogp/v1/results/standings?seasonYear=2026&categoryUuid=954f7e65-2ef2-4423-b949-4961cc603e45"
+            motogp: "https://corsproxy.io/?" + encodeURIComponent("https://api.motogp.pulselive.com/motogp/v1/results/standings?seasonYear=2026&categoryUuid=e8c110ad-64aa-4e8e-8a86-f2f152f6a942"),
+            moto2: "https://corsproxy.io/?" + encodeURIComponent("https://api.motogp.pulselive.com/motogp/v1/results/standings?seasonYear=2026&categoryUuid=549640b8-fd9c-4245-acfd-60e4bc38b25c"),
+            moto3: "https://corsproxy.io/?" + encodeURIComponent("https://api.motogp.pulselive.com/motogp/v1/results/standings?seasonYear=2026&categoryUuid=954f7e65-2ef2-4423-b949-4961cc603e45")
         };
 
         async function chargerClassement(categorie) {

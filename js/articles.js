@@ -6,7 +6,7 @@
 // l'article apparaît alors sur la fiche du GP dans le calendrier. À omettre pour un article hors GP.
 const ARTICLES = [
    {
-    slug: 'tests-850cc',
+    slug: '850cc',
     title: 'Tests privés 850cc',
     excerpt: 'Résumé du dernier test privé 850cc sur le circuit de Spielberg.',
     category: 'motogp',       

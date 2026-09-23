@@ -5,6 +5,17 @@
 // gp : code court du Grand Prix concerné (shortname dans data/calendar.json : AUT, JPN, FRA...),
 // l'article apparaît alors sur la fiche du GP dans le calendrier. À omettre pour un article hors GP.
 const ARTICLES = [
+   {
+    slug: 'tests-850cc',
+    title: 'Tests privés 850cc',
+    excerpt: 'Résumé du dernier test privé 850cc sur le circuit de Spielberg.',
+    category: 'motogp',       
+    gp: 'AUT',                 
+    date: '2026-09-23',       
+    author: 'Lucas',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDRbUdUn6-3lhkaW9TfPlt2Sxub348jOZPwukN6IxL_w&s=10'
+},
+    
     {
         slug: 'gp-autriche-2026',
         title: "Grand Prix d'Autriche : une première au Red Bull Ring",

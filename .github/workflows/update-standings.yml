@@ -1,8 +1,11 @@
-name: Mise a jour automatique des classements
+name: Mise à jour des données MotoGP
 
 on:
   schedule:
-    - cron: '0 15 * * 0'
+    # Tous les jours à 03:00 UTC : couvre les courses hors Europe (Asie, Amériques)
+    - cron: '0 3 * * *'
+    # Dimanche 18:00 UTC : mise à jour rapide après les GP européens
+    - cron: '0 18 * * 0'
   workflow_dispatch:
 
 jobs:
@@ -15,16 +18,24 @@ jobs:
       - name: Récupérer le code du dépôt
         uses: actions/checkout@v4
 
-      - name: Télécharger les classements MotoGP, Moto2 et Moto3
+      - name: Récupérer les classements et le calendrier
+        run: bash scripts/update-data.sh
+
+      - name: Mettre à jour les photos des pilotes
         run: |
-          mkdir -p data
-          curl -s "https://api.motogp.pulselive.com/motogp/v1/results/standings?seasonUuid=e3358f63-ee54-4667-9c9b-0dd8fdd83deb&seasonYear=2026&categoryUuid=e8c110ad-64aa-4e8e-8a86-f2f152f6a942&limit=100" > data/motogp.json
-          curl -s "https://api.motogp.pulselive.com/motogp/v1/results/standings?seasonUuid=e3358f63-ee54-4667-9c9b-0dd8fdd83deb&seasonYear=2026&categoryUuid=549640b8-fd9c-4245-acfd-60e4bc38b25c&limit=100" > data/moto2.json
-          curl -s "https://api.motogp.pulselive.com/motogp/v1/results/standings?seasonUuid=e3358f63-ee54-4667-9c9b-0dd8fdd83deb&seasonYear=2026&categoryUuid=954f7e65-2ef2-4423-b949-4961cc603e45&limit=100" > data/moto3.json
+          python3 -m pip install --quiet pillow
+          python3 scripts/rider-images.py
 
       - name: Publier les modifications
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/*.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "bot: mise à jour automatique des classements complets" && git push)
+          git add data/*.json img/riders
+          # meta.json change à chaque exécution : on ne commite que si les données ont bougé
+          if git diff --staged --quiet -- ':!data/meta.json'; then
+            echo "Aucun changement dans les classements ni le calendrier"
+            git reset -q
+            exit 0
+          fi
+          git commit -m "bot: mise à jour des classements et du calendrier"
+          git push

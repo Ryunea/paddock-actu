@@ -1,0 +1,574 @@
+[
+  {
+    "round": 1,
+    "name": "THAILAND",
+    "full_name": "PT GRAND PRIX OF THAILAND",
+    "shortname": "THA",
+    "country": "TH",
+    "status": "FINISHED",
+    "date_start": "2026-02-27T08:00:00+07:00",
+    "date_end": "2026-03-01T18:00:00+07:00",
+    "circuit": "Chang International Circuit",
+    "city": "Tambon Isan",
+    "track_image": "https://photos.motogp.com/events-admin/5/e/5eb8c6ce-f16b-4be5-8aea-39ebaa3b18ba/simple/tha.png",
+    "track": {
+      "length_m": 4554,
+      "width_m": 12,
+      "longest_straight_m": 1000,
+      "left_corners": 5,
+      "right_corners": 7
+    },
+    "laps": {
+      "motogp": 26,
+      "motogp_sprint": 13,
+      "moto2": 22,
+      "moto3": 19
+    }
+  },
+  {
+    "round": 2,
+    "name": "BRAZIL",
+    "full_name": "ESTRELLA GALICIA 0,0 GRAND PRIX OF BRAZIL",
+    "shortname": "BRA",
+    "country": "BR",
+    "status": "FINISHED",
+    "date_start": "2026-03-20T08:00:00-03:00",
+    "date_end": "2026-03-22T18:00:00-03:00",
+    "circuit": "Autódromo Internacional de Goiânia – Ayrton Senna",
+    "city": "",
+    "track_image": "https://photos.motogp.com/events-admin/5/0/50941f7f-e112-4404-8dcf-5fb2c47e9617/simple/bra.png",
+    "track": {
+      "length_m": 3835,
+      "width_m": 12,
+      "longest_straight_m": 994,
+      "left_corners": 5,
+      "right_corners": 9
+    },
+    "laps": {
+      "motogp": 23,
+      "motogp_sprint": 15,
+      "moto2": 26,
+      "moto3": 24
+    }
+  },
+  {
+    "round": 3,
+    "name": "USA",
+    "full_name": "RED BULL GRAND PRIX OF THE UNITED STATES",
+    "shortname": "USA",
+    "country": "US",
+    "status": "FINISHED",
+    "date_start": "2026-03-27T08:00:00-05:00",
+    "date_end": "2026-03-29T18:00:00-05:00",
+    "circuit": "Circuit Of The Americas",
+    "city": "",
+    "track_image": "https://photos.motogp.com/events-admin/c/7/c7c0782e-67f2-4351-af96-6dd5835e8d42/simple/usa.png",
+    "track": {
+      "length_m": 5513,
+      "width_m": 15,
+      "longest_straight_m": 1200,
+      "left_corners": 11,
+      "right_corners": 9
+    },
+    "laps": {
+      "motogp": 19,
+      "motogp_sprint": 10,
+      "moto2": 16,
+      "moto3": 14
+    }
+  },
+  {
+    "round": 4,
+    "name": "SPAIN",
+    "full_name": "ESTRELLA GALICIA 0,0 GRAND PRIX OF SPAIN",
+    "shortname": "SPA",
+    "country": "ES",
+    "status": "FINISHED",
+    "date_start": "2026-04-24T08:00:00+02:00",
+    "date_end": "2026-04-26T18:00:00+02:00",
+    "circuit": "Circuito de Jerez - Ángel Nieto",
+    "city": "Jerez de la Frontera",
+    "track_image": "https://photos.motogp.com/events-admin/4/2/42621ff3-ef5d-4c7c-8abf-eb54c16181bc/simple/spa.png",
+    "track": {
+      "length_m": 4423,
+      "width_m": 11,
+      "longest_straight_m": 607,
+      "left_corners": 5,
+      "right_corners": 8
+    },
+    "laps": {
+      "motogp": 25,
+      "motogp_sprint": 12,
+      "moto2": 21,
+      "moto3": 19
+    }
+  },
+  {
+    "round": 5,
+    "name": "FRANCE",
+    "full_name": "MICHELIN® GRAND PRIX OF FRANCE",
+    "shortname": "FRA",
+    "country": "FR",
+    "status": "FINISHED",
+    "date_start": "2026-05-08T08:00:00+02:00",
+    "date_end": "2026-05-10T18:00:00+02:00",
+    "circuit": "Le Mans",
+    "city": "Le Mans",
+    "track_image": "https://photos.motogp.com/events-admin/4/5/45f698f6-883b-4379-bac3-3253ee6e32e0/simple/fra11.png",
+    "track": {
+      "length_m": 4185,
+      "width_m": 13,
+      "longest_straight_m": 674,
+      "left_corners": 5,
+      "right_corners": 9
+    },
+    "laps": {
+      "motogp": 27,
+      "motogp_sprint": 13,
+      "moto2": 9,
+      "moto3": 13
+    }
+  },
+  {
+    "round": 6,
+    "name": "CATALONIA",
+    "full_name": "MONSTER ENERGY GRAND PRIX OF CATALUNYA",
+    "shortname": "CAT",
+    "country": "ES",
+    "status": "FINISHED",
+    "date_start": "2026-05-15T08:00:00+02:00",
+    "date_end": "2026-05-17T18:00:00+02:00",
+    "circuit": "Circuit de Barcelona-Catalunya",
+    "city": "",
+    "track_image": "https://photos.motogp.com/events-admin/e/e/eea725c5-432a-483b-bf46-f9769b8e5ddf/simple/cat.png",
+    "track": {
+      "length_m": 4657,
+      "width_m": 12,
+      "longest_straight_m": 1047,
+      "left_corners": 6,
+      "right_corners": 8
+    },
+    "laps": {
+      "motogp": 24,
+      "motogp_sprint": 12,
+      "moto2": 21,
+      "moto3": 18
+    }
+  },
+  {
+    "round": 7,
+    "name": "ITALY",
+    "full_name": "BREMBO GRAND PRIX OF ITALY",
+    "shortname": "ITA",
+    "country": "IT",
+    "status": "FINISHED",
+    "date_start": "2026-05-29T08:00:00+02:00",
+    "date_end": "2026-05-31T18:00:00+02:00",
+    "circuit": "Autodromo Internazionale del Mugello",
+    "city": "Scarperia e San Piero",
+    "track_image": "https://photos.motogp.com/events-admin/a/f/af57cc25-cf15-4f68-b775-ddaea8fec828/simple/ita.png",
+    "track": {
+      "length_m": 5245,
+      "width_m": 14,
+      "longest_straight_m": 1141,
+      "left_corners": 6,
+      "right_corners": 9
+    },
+    "laps": {
+      "motogp": 23,
+      "motogp_sprint": 11,
+      "moto2": 19,
+      "moto3": 17
+    }
+  },
+  {
+    "round": 8,
+    "name": "HUNGARY",
+    "full_name": "GRAND PRIX OF HUNGARY",
+    "shortname": "HUN",
+    "country": "HU",
+    "status": "FINISHED",
+    "date_start": "2026-06-05T08:00:00+02:00",
+    "date_end": "2026-06-07T18:00:00+02:00",
+    "circuit": "Balaton Park",
+    "city": "Balaton",
+    "track_image": "https://photos.motogp.com/events-admin/4/6/46218937-1b94-4d2e-97b7-256b5bf181c3/simple/hun.png",
+    "track": {
+      "length_m": 4075,
+      "width_m": 12,
+      "longest_straight_m": 665,
+      "left_corners": 10,
+      "right_corners": 7
+    },
+    "laps": {
+      "motogp": 26,
+      "motogp_sprint": 13,
+      "moto2": 22,
+      "moto3": 20
+    }
+  },
+  {
+    "round": 9,
+    "name": "CZECHIA",
+    "full_name": "MONSTER ENERGY GRAND PRIX OF CZECHIA",
+    "shortname": "CZE",
+    "country": "CZ",
+    "status": "FINISHED",
+    "date_start": "2026-06-19T08:00:00+02:00",
+    "date_end": "2026-06-21T18:00:00+02:00",
+    "circuit": "CREDITAS Autodrom Brno",
+    "city": "",
+    "track_image": "https://photos.motogp.com/events-admin/8/1/811bb92b-cf2c-44ec-a188-b9681ba9fc12/simple/cze11.png",
+    "track": {
+      "length_m": 5403,
+      "width_m": 15,
+      "longest_straight_m": 636,
+      "left_corners": 6,
+      "right_corners": 8
+    },
+    "laps": {
+      "motogp": 21,
+      "motogp_sprint": 10,
+      "moto2": 18,
+      "moto3": 16
+    }
+  },
+  {
+    "round": 10,
+    "name": "NETHERLANDS",
+    "full_name": "TISSOT GRAND PRIX OF THE NETHERLANDS",
+    "shortname": "NED",
+    "country": "NL",
+    "status": "FINISHED",
+    "date_start": "2026-06-26T08:00:00+02:00",
+    "date_end": "2026-06-28T18:00:00+02:00",
+    "circuit": "TT Circuit Assen",
+    "city": "Assen",
+    "track_image": "https://photos.motogp.com/events-admin/2/c/2c30ee0c-d85b-48e1-b6d4-303a2ba22ae1/simple/nld.png",
+    "track": {
+      "length_m": 4542,
+      "width_m": 14,
+      "longest_straight_m": 487,
+      "left_corners": 6,
+      "right_corners": 12
+    },
+    "laps": {
+      "motogp": 26,
+      "motogp_sprint": 13,
+      "moto2": 22,
+      "moto3": 20
+    }
+  },
+  {
+    "round": 11,
+    "name": "GERMANY",
+    "full_name": "LIQUI MOLY GRAND PRIX OF GERMANY",
+    "shortname": "GER",
+    "country": "DE",
+    "status": "FINISHED",
+    "date_start": "2026-07-10T08:00:00+02:00",
+    "date_end": "2026-07-12T18:00:00+02:00",
+    "circuit": "Sachsenring",
+    "city": "Oberlungwitz",
+    "track_image": "https://photos.motogp.com/events-admin/5/c/5cab1166-44c1-45ad-bc30-96d910170097/simple/ger.png",
+    "track": {
+      "length_m": 3671,
+      "width_m": 12,
+      "longest_straight_m": 700,
+      "left_corners": 10,
+      "right_corners": 3
+    },
+    "laps": {
+      "motogp": 30,
+      "motogp_sprint": 15,
+      "moto2": 25,
+      "moto3": 23
+    }
+  },
+  {
+    "round": 12,
+    "name": "GREAT BRITAIN",
+    "full_name": "QATAR AIRWAYS GRAND PRIX OF GREAT BRITAIN",
+    "shortname": "GBR",
+    "country": "GB",
+    "status": "FINISHED",
+    "date_start": "2026-08-07T19:00:00+01:00",
+    "date_end": "2026-08-09T22:30:00+01:00",
+    "circuit": "Silverstone Circuit",
+    "city": "",
+    "track_image": "https://photos.motogp.com/events-admin/2/f/2f84e93c-dca6-4ca4-9319-c29eba5bbabb/simple/gbr.png",
+    "track": {
+      "length_m": 5900,
+      "width_m": 15,
+      "longest_straight_m": 770,
+      "left_corners": 8,
+      "right_corners": 10
+    },
+    "laps": {
+      "motogp": 20,
+      "motogp_sprint": 10,
+      "moto2": 17,
+      "moto3": 15
+    }
+  },
+  {
+    "round": 13,
+    "name": "ARAGON",
+    "full_name": "MICHELIN® GRAND PRIX OF ARAGON",
+    "shortname": "ARA",
+    "country": "ES",
+    "status": "FINISHED",
+    "date_start": "2026-08-28T08:00:00+02:00",
+    "date_end": "2026-08-30T18:00:00+02:00",
+    "circuit": "MotorLand Aragón",
+    "city": "",
+    "track_image": "https://photos.motogp.com/events-admin/9/9/99cf40f3-6ed4-4cd9-9c1c-22379f6d929b/simple/ara.png",
+    "track": {
+      "length_m": 5077,
+      "width_m": 15,
+      "longest_straight_m": 968,
+      "left_corners": 10,
+      "right_corners": 7
+    },
+    "laps": {
+      "motogp": 23,
+      "motogp_sprint": 11,
+      "moto2": 19,
+      "moto3": 17
+    }
+  },
+  {
+    "round": 14,
+    "name": "SAN MARINO",
+    "full_name": "RED BULL GRAND PRIX OF SAN MARINO AND THE RIMINI RIVIERA",
+    "shortname": "RSM",
+    "country": "SM",
+    "status": "FINISHED",
+    "date_start": "2026-09-11T08:00:00+02:00",
+    "date_end": "2026-09-13T18:00:00+02:00",
+    "circuit": "Misano World Circuit Marco Simoncelli",
+    "city": "Santa Monica-Cella",
+    "track_image": "https://photos.motogp.com/events-admin/0/c/0c4b819d-6014-4920-877b-ab0a1f3415a3/simple/rsm.png",
+    "track": {
+      "length_m": 4226,
+      "width_m": 12,
+      "longest_straight_m": 530,
+      "left_corners": 6,
+      "right_corners": 10
+    },
+    "laps": {
+      "motogp": 27,
+      "motogp_sprint": 13,
+      "moto2": 22,
+      "moto3": 20
+    }
+  },
+  {
+    "round": 15,
+    "name": "AUSTRIA",
+    "full_name": "QATAR AIRWAYS GRAND PRIX OF AUSTRIA",
+    "shortname": "AUT",
+    "country": "AT",
+    "status": "FINISHED",
+    "date_start": "2026-09-18T08:00:00+02:00",
+    "date_end": "2026-09-20T18:00:00+02:00",
+    "circuit": "Red Bull Ring - Spielberg",
+    "city": "Spielberg",
+    "track_image": "https://photos.motogp.com/events-admin/5/3/53e027a4-908f-4253-9805-7321bd212fae/simple/aut.png",
+    "track": {
+      "length_m": 4348,
+      "width_m": 12,
+      "longest_straight_m": 810,
+      "left_corners": 3,
+      "right_corners": 8
+    },
+    "laps": {
+      "motogp": 28,
+      "motogp_sprint": 14,
+      "moto2": 23,
+      "moto3": 20
+    }
+  },
+  {
+    "round": 16,
+    "name": "JAPAN",
+    "full_name": "MOTUL GRAND PRIX OF JAPAN",
+    "shortname": "JPN",
+    "country": "JP",
+    "status": "NOT-STARTED",
+    "date_start": "2026-10-02T08:00:00+09:00",
+    "date_end": "2026-10-04T18:00:00+09:00",
+    "circuit": "Mobility Resort Motegi",
+    "city": "Motegi",
+    "track_image": "https://photos.motogp.com/events-admin/9/f/9fbd0109-0b0b-4bbb-a671-d7840036babe/simple/jpn.png",
+    "track": {
+      "length_m": 4801,
+      "width_m": 15,
+      "longest_straight_m": 762,
+      "left_corners": 6,
+      "right_corners": 8
+    },
+    "laps": {
+      "motogp": 24,
+      "motogp_sprint": 12,
+      "moto2": 19,
+      "moto3": 17
+    }
+  },
+  {
+    "round": 17,
+    "name": "INDONESIA",
+    "full_name": "PERTAMINA GRAND PRIX OF INDONESIA",
+    "shortname": "INA",
+    "country": "ID",
+    "status": "NOT-STARTED",
+    "date_start": "2026-10-09T08:00:00+08:00",
+    "date_end": "2026-10-11T18:00:00+08:00",
+    "circuit": "Pertamina Mandalika International Circuit",
+    "city": "",
+    "track_image": "https://photos.motogp.com/events-admin/0/d/0db4e87a-920f-4699-a688-63e22b924f1b/simple/ina.png",
+    "track": {
+      "length_m": 4301,
+      "width_m": 15,
+      "longest_straight_m": 723,
+      "left_corners": 6,
+      "right_corners": 11
+    },
+    "laps": {
+      "motogp": 27,
+      "motogp_sprint": 13,
+      "moto2": 22,
+      "moto3": 20
+    }
+  },
+  {
+    "round": 18,
+    "name": "AUSTRALIA",
+    "full_name": "GRAND PRIX OF AUSTRALIA",
+    "shortname": "AUS",
+    "country": "AU",
+    "status": "NOT-STARTED",
+    "date_start": "2026-10-23T08:00:00+11:00",
+    "date_end": "2026-10-25T23:00:00+11:00",
+    "circuit": "Phillip Island",
+    "city": "",
+    "track_image": "https://photos.motogp.com/events-admin/c/e/ce2c750b-4a15-4285-966b-5db647e6596a/simple/aus.png",
+    "track": {
+      "length_m": 4448,
+      "width_m": 13,
+      "longest_straight_m": 900,
+      "left_corners": 7,
+      "right_corners": 5
+    },
+    "laps": {
+      "motogp": 27,
+      "motogp_sprint": 13,
+      "moto2": 23,
+      "moto3": 21
+    }
+  },
+  {
+    "round": 19,
+    "name": "MALAYSIA",
+    "full_name": "PETRONAS GRAND PRIX OF MALAYSIA",
+    "shortname": "MAL",
+    "country": "MY",
+    "status": "NOT-STARTED",
+    "date_start": "2026-10-30T08:00:00+08:00",
+    "date_end": "2026-11-01T18:00:00+08:00",
+    "circuit": "Petronas Sepang International Circuit",
+    "city": "Sepang",
+    "track_image": "https://photos.motogp.com/events-admin/0/7/07f44869-813e-46e6-97ba-aa405e134d87/simple/mal.png",
+    "track": {
+      "length_m": 5543,
+      "width_m": 16,
+      "longest_straight_m": 920,
+      "left_corners": 5,
+      "right_corners": 10
+    },
+    "laps": {
+      "motogp": 20,
+      "motogp_sprint": 10,
+      "moto2": 17,
+      "moto3": 15
+    }
+  },
+  {
+    "round": 20,
+    "name": "QATAR",
+    "full_name": "QATAR AIRWAYS GRAND PRIX OF QATAR",
+    "shortname": "QAT",
+    "country": "QA",
+    "status": "NOT-STARTED",
+    "date_start": "2026-11-06T08:00:00+03:00",
+    "date_end": "2026-11-08T18:00:00+03:00",
+    "circuit": "Lusail International Circuit",
+    "city": "Doha",
+    "track_image": "https://photos.motogp.com/events-admin/b/1/b1cd25b2-1658-4c3b-bd3f-1a7796f7cd27/simple/qat.png",
+    "track": {
+      "length_m": 5380,
+      "width_m": 12,
+      "longest_straight_m": 1068,
+      "left_corners": 6,
+      "right_corners": 10
+    },
+    "laps": {
+      "motogp": 22,
+      "motogp_sprint": 11,
+      "moto2": 18,
+      "moto3": 16
+    }
+  },
+  {
+    "round": 21,
+    "name": "PORTUGAL",
+    "full_name": "REPSOL GRAND PRIX OF PORTUGAL",
+    "shortname": "POR",
+    "country": "PT",
+    "status": "NOT-STARTED",
+    "date_start": "2026-11-20T08:00:00+00:00",
+    "date_end": "2026-11-22T18:00:00+00:00",
+    "circuit": "Autódromo Internacional do Algarve",
+    "city": "Portimão",
+    "track_image": "https://photos.motogp.com/events-admin/0/b/0b5cf829-21cf-48dd-a324-1465fc504c24/simple/por.png",
+    "track": {
+      "length_m": 4592,
+      "width_m": 18,
+      "longest_straight_m": 970,
+      "left_corners": 6,
+      "right_corners": 9
+    },
+    "laps": {
+      "motogp": 25,
+      "motogp_sprint": 12,
+      "moto2": 21,
+      "moto3": 19
+    }
+  },
+  {
+    "round": 22,
+    "name": "VALENCIA",
+    "full_name": "MOTUL GRAND PRIX OF VALENCIA",
+    "shortname": "VAL",
+    "country": "ES",
+    "status": "NOT-STARTED",
+    "date_start": "2026-11-27T08:00:00+01:00",
+    "date_end": "2026-11-29T18:00:00+01:00",
+    "circuit": "Circuit Ricardo Tormo",
+    "city": "Cheste",
+    "track_image": "https://photos.motogp.com/events-admin/7/9/795839a0-8faa-4f4e-a574-8dce32cfc560/simple/val.png",
+    "track": {
+      "length_m": 4005,
+      "width_m": 12,
+      "longest_straight_m": 876,
+      "left_corners": 9,
+      "right_corners": 5
+    },
+    "laps": {
+      "motogp": 27,
+      "motogp_sprint": 13,
+      "moto2": 22,
+      "moto3": 20
+    }
+  }
+]

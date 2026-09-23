@@ -3,389 +3,241 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>PaddockActu - Le site 100% Paddock</title>
 
     <meta name="description" content="Toute l'actualité MotoGP, les analyses des Grands Prix, les classements et les coulisses du paddock en direct.">
+    <meta name="theme-color" content="#15151e">
 
     <meta property="og:title" content="PaddockActu - Le site 100% Paddock">
     <meta property="og:description" content="Retrouvez toutes les dernières infos du paddock MotoGP !">
-    <meta property="og:image" content="https://365austria.com/wp-content/uploads/2024/09/c_PhilipPlatzer_Bulle.jpg"> 
+    <meta property="og:image" content="https://365austria.com/wp-content/uploads/2024/09/c_PhilipPlatzer_Bulle.jpg">
     <meta property="og:type" content="website">
 
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-
-    <style>
-        .filter-tags {
-            display: flex;
-            gap: 10px;
-            margin-bottom: 25px;
-            flex-wrap: wrap;
-        }
-
-        .filter-btn {
-            background-color: #15151e;
-            color: #fff;
-            border: 2px solid transparent;
-            padding: 8px 16px;
-            border-radius: 20px;
-            cursor: pointer;
-            font-size: 0.9rem;
-            font-weight: 600;
-            transition: all 0.3s ease;
-        }
-
-        .filter-btn:hover {
-            background-color: #e10600;
-        }
-
-        .filter-btn.active {
-            background-color: #e10600;
-            border-color: #ffffff;
-        }
-
-        .card-img {
-            width: 100%;
-            height: 180px;
-            object-fit: cover;
-            display: block;
-        }
-    </style>
 </head>
 
 <body>
 
-    <header>
-        <div class="logo" onclick="afficherPage('page-accueil')">Paddock<span>Actu</span></div>
-        <nav>
-            <ul>
-                <li><a href="#accueil" onclick="afficherPage('page-accueil')">Accueil</a></li>
-                <li><a href="#tous-les-articles" onclick="afficherPage('page-catalogue')">Tous les articles</a></li>
-                <li><a href="#classements" onclick="afficherPage('page-classements')">Classements</a></li>
-            </ul>
-        </nav>
+    <header class="site-header">
+        <div class="container">
+            <a href="#accueil" class="logo">Paddock<span>Actu</span></a>
+            <nav class="site-nav" aria-label="Navigation principale">
+                <ul>
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#tous-les-articles">Articles</a></li>
+                    <li><a href="#classements">Classements</a></li>
+                    <li><a href="#calendrier">Calendrier</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <div id="page-accueil">
-        <section id="accueil" class="hero">
-            <div class="hero-text">
-                <h1>Au cœur de la vitesse</h1>
-                <p>Toute l'actualité, les résultats et analyses de la saison MotoGP.</p>
-            </div>
-        </section>
+    <div id="page-accueil" class="page">
+        <section class="hero" id="hero" aria-label="À la une"></section>
 
-        <main class="container">
-            <section id="actus" class="news-section">
-                <h2>Articles Récents</h2>
-                <div class="news-grid">
-
-                    <a href="articles/gp-autriche-2026.html" class="card-link"> 
-                        <article class="card">
-                            <img src="https://365austria.com/wp-content/uploads/2024/09/c_PhilipPlatzer_Bulle.jpg" alt="Grand Prix d'Autriche" class="card-img">
-                            <div class="card-content">
-                                <span class="tag">MotoGP</span>
-                                <h3>Grand Prix d'Autriche : Une première au Red Bull Ring</h3>
-                                <p>Résumé complet de la victoire de Pedro Acosta, du podium d'Aprilia et des rebondissements de la course.</p>
-                            </div>
-                        </article>
-                    </a>
-
-                    <a href="articles/sprint-autriche-2026.html" class="card-link"> 
-                        <article class="card">
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOQkGnvHQmfFVPExAdJ0Qw_AG-qZpfalbh5KAT9hFJjg&s=10" alt="Sprint Autriche" class="card-img">
-                            <div class="card-content">
-                                <span class="tag">MotoGP</span>
-                                <h3>Sprint mouvementé en Autriche</h3>
-                                <p>Résumé complet des essais, des qualifications et d'une course sprint folle au Red Bull Ring.</p>
-                            </div>
-                        </article>
-                    </a>
-
-                    <a href="articles/preview-autriche-2026.html" class="card-link"> 
-                        <article class="card">
-                            <img src="https://resources.motogp.pulselive.com/photo-resources/2026/04/24/52c4a71c-d42e-402c-90f0-fde68ff454e2/Agius.jpg?width=400&height=225" alt="Preview Autriche" class="card-img">
-                            <div class="card-content">
-                                <span class="tag">Paddock</span>
-                                <h3>Preview Grand Prix d'Autriche</h3>
-                                <p>Tout ce qu'il faut savoir avant le début du week-end en Autriche.</p>
-                            </div>
-                        </article>
-                    </a>
-
+        <main>
+            <section class="page-section">
+                <div class="container">
+                    <h2 class="section-title">Derniers articles</h2>
+                    <div class="news-grid" id="home-articles"></div>
+                    <p class="section-more"><a href="#tous-les-articles">Tous les articles &rarr;</a></p>
                 </div>
             </section>
 
-            <section class="standings-section">
-                <h2>Classement Pilotes MotoGP (Top 3)</h2>
-                <table id="table-home-motogp">
-                    <thead>
-                        <tr>
-                            <th>Pos.</th>
-                            <th>Pilote</th>
-                            <th>Écurie</th>
-                            <th>Points</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>Jorge Martín</td>
-                            <td>Aprilia Racing</td>
-                            <td>306</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Marc Márquez</td>
-                            <td>Ducati Lenovo Team</td>
-                            <td>294</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>Marco Bezzecchi</td>
-                            <td>Aprilia Racing</td>
-                            <td>264</td>
-                        </tr>
-                    </tbody>
-                </table>
+            <section class="page-section">
+                <div class="container home-grid">
+                    <div>
+                        <h2 class="section-title">Prochain Grand Prix</h2>
+                        <div id="next-gp" class="next-gp">
+                            <p class="muted">Chargement du calendrier…</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h2 class="section-title">Top 3 MotoGP</h2>
+                        <div class="table-card">
+                            <table id="table-home-motogp" class="standings">
+                                <thead>
+                                    <tr>
+                                        <th>Pos.</th>
+                                        <th>Pilote</th>
+                                        <th class="team hide-sm">Écurie</th>
+                                        <th class="num">Points</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr><td colspan="4" class="muted">Chargement…</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <p class="section-more"><a href="#classements">Classement complet &rarr;</a></p>
+                    </div>
+                </div>
             </section>
         </main>
     </div>
 
-    <div id="page-catalogue" class="container hidden">
-        <h2>Tous les Articles</h2>
+    <div id="page-catalogue" class="page hidden">
+        <section class="page-section">
+            <div class="container">
+                <h2 class="section-title">Tous les articles</h2>
 
-        <div class="filter-tags">
-            <button class="filter-btn active" onclick="filtrerArticles('tous', this)">Tous</button>
-            <button class="filter-btn" onclick="filtrerArticles('motogp', this)">MotoGP</button>
-            <button class="filter-btn" onclick="filtrerArticles('paddock', this)">Paddock</button>
-            <button class="filter-btn" onclick="filtrerArticles('moto2', this)">Moto2</button>
-            <button class="filter-btn" onclick="filtrerArticles('moto3', this)">Moto3</button>
-        </div>
+                <div class="filter-tags" id="article-filters">
+                    <button class="filter-btn active" data-filter="tous">Tous</button>
+                    <button class="filter-btn" data-filter="motogp">MotoGP</button>
+                    <button class="filter-btn" data-filter="moto2">Moto2</button>
+                    <button class="filter-btn" data-filter="moto3">Moto3</button>
+                    <button class="filter-btn" data-filter="paddock">Paddock</button>
+                </div>
 
-        <div class="news-grid">
-            <a href="articles/gp-autriche-2026.html" class="card-link" data-tag="motogp"> 
-                <article class="card">
-                    <img src="https://365austria.com/wp-content/uploads/2024/09/c_PhilipPlatzer_Bulle.jpg" alt="Grand Prix d'Autriche" class="card-img">
-                    <div class="card-content">
-                        <span class="tag">MotoGP</span>
-                        <h3>Grand Prix d'Autriche : Une course mouvementée au Red Bull Ring</h3>
-                        <p>Résumé complet de la victoire historique de Pedro Acosta, du podium d'Aprilia et des rebondissements de la course.</p>
-                    </div>
-                </article>
-            </a>
-
-            <a href="articles/sprint-autriche-2026.html" class="card-link" data-tag="motogp"> 
-                <article class="card">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOQkGnvHQmfFVPExAdJ0Qw_AG-qZpfalbh5KAT9hFJjg&s=10" alt="Sprint Autriche" class="card-img">
-                    <div class="card-content">
-                        <span class="tag">MotoGP</span>
-                        <h3>Sprint mouvementé en Autriche</h3>
-                        <p>Résumé complet des essais, des qualifications et d'une course sprint folle au Red Bull Ring.</p>
-                    </div>
-                </article>
-            </a>
-
-            <a href="articles/preview-autriche-2026.html" class="card-link" data-tag="paddock"> 
-                <article class="card">
-                    <img src="https://resources.motogp.pulselive.com/photo-resources/2026/04/24/52c4a71c-d42e-402c-90f0-fde68ff454e2/Agius.jpg?width=400&height=225" alt="Preview Autriche" class="card-img">
-                    <div class="card-content">
-                        <span class="tag">Paddock</span>
-                        <h3>Preview Grand Prix d'Autriche</h3>
-                        <p>Tout ce qu'il faut savoir avant le début du week-end en Autriche.</p>
-                    </div>
-                </article>
-            </a>
-        </div>
+                <div class="news-grid" id="all-articles"></div>
+                <p id="no-articles" class="muted hidden">Aucun article dans cette catégorie pour le moment.</p>
+            </div>
+        </section>
     </div>
 
-    <div id="page-classements" class="container hidden">
-        <h2>Classements Officiels</h2>
+    <div id="page-classements" class="page hidden">
+        <section class="page-section">
+            <div class="container">
+                <h2 class="section-title">Classements pilotes</h2>
 
-        <div class="filter-container">
-            <label for="select-categorie">Catégorie :</label>
-            <select id="select-categorie" onchange="changerCategorie()">
-                <option value="motogp">MotoGP</option>
-                <option value="moto2">Moto2</option>
-                <option value="moto3">Moto3</option>
-            </select>
-        </div>
+                <div class="standings-toolbar">
+                    <div class="filter-tags" id="standings-tabs" role="tablist">
+                        <button class="filter-btn active" data-cat="motogp">MotoGP</button>
+                        <button class="filter-btn" data-cat="moto2">Moto2</button>
+                        <button class="filter-btn" data-cat="moto3">Moto3</button>
+                    </div>
+                    <span id="standings-context" class="muted"></span>
+                </div>
 
-        <table id="table-motogp">
-            <thead>
-                <tr>
-                    <th>Pos.</th>
-                    <th>Pilote</th>
-                    <th>Écurie</th>
-                    <th>Points</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr><td>1</td><td>Jorge Martín</td><td>Aprilia Racing</td><td>306</td></tr>
-                <tr><td>2</td><td>Marc Márquez</td><td>Ducati Lenovo Team</td><td>294</td></tr>
-                <tr><td>3</td><td>Marco Bezzecchi</td><td>Aprilia Racing</td><td>264</td></tr>
-                <tr><td>4</td><td>Pedro Acosta</td><td>Red Bull KTM Factory Racing</td><td>234</td></tr>
-                <tr><td>5</td><td>Fabio Di Giannantonio</td><td>Pertamina Enduro VR46 Racing Team</td><td>230</td></tr>
-                <tr><td>6</td><td>Ai Ogura</td><td>SuperFile Trackhouse MotoGP Team</td><td>222</td></tr>
-                <tr><td>7</td><td>Raúl Fernández</td><td>SuperFile Trackhouse MotoGP Team</td><td>203</td></tr>
-                <tr><td>8</td><td>Álex Márquez</td><td>BK8 Gresini Racing MotoGP</td><td>158</td></tr>
-                <tr><td>9</td><td>Francesco Bagnaia</td><td>Ducati Lenovo Team</td><td>156</td></tr>
-                <tr><td>10</td><td>Fermín Aldeguer</td><td>BK8 Gresini Racing MotoGP</td><td>115</td></tr>
-                <tr><td>11</td><td>Luca Marini</td><td>Honda HRC Castrol</td><td>98</td></tr>
-                <tr><td>12</td><td>Enea Bastianini</td><td>Red Bull KTM Tech3</td><td>97</td></tr>
-                <tr><td>13</td><td>Brad Binder</td><td>Red Bull KTM Factory Racing</td><td>94</td></tr>
-                <tr><td>14</td><td>Diogo Moreira</td><td>Pro Honda LCR</td><td>65</td></tr>
-                <tr><td>15</td><td>Fabio Quartararo</td><td>Monster Energy Yamaha MotoGP Team</td><td>61</td></tr>
-                <tr><td>16</td><td>Franco Morbidelli</td><td>Pertamina Enduro VR46 Racing Team</td><td>56</td></tr>
-                <tr><td>17</td><td>Johann Zarco</td><td>Castrol Honda LCR</td><td>45</td></tr>
-                <tr><td>18</td><td>Joan Mir</td><td>Honda HRC Castrol</td><td>33</td></tr>
-                <tr><td>19</td><td>Jack Miller</td><td>Prima Pramac Yamaha MotoGP</td><td>28</td></tr>
-                <tr><td>20</td><td>Álex Rins</td><td>Monster Energy Yamaha MotoGP Team</td><td>24</td></tr>
-            </tbody>
-        </table>
+                <div id="standings-panels">
+                    <div class="standings-panel" data-cat="motogp">
+                        <div class="podium" id="podium-motogp"></div>
+                        <div class="stat-row" id="stats-motogp"></div>
+                        <div class="table-card">
+                            <div class="table-wrap">
+                                <table id="table-motogp" class="standings standings-full">
+                                    <thead>
+                                        <tr>
+                                            <th>Pos.</th>
+                                            <th class="hide-sm">N°</th>
+                                            <th>Pilote</th>
+                                            <th class="team hide-sm">Écurie</th>
+                                            <th class="hide-md">Constructeur</th>
+                                            <th class="hide-sm">Forme</th>
+                                            <th class="num hide-sm">Vict.</th>
+                                            <th class="num hide-sm">Podiums</th>
+                                            <th class="num hide-sm">Écart</th>
+                                            <th class="num">Points</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr><td colspan="10" class="muted">Chargement…</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="standings-panel hidden" data-cat="moto2">
+                        <div class="podium" id="podium-moto2"></div>
+                        <div class="stat-row" id="stats-moto2"></div>
+                        <div class="table-card">
+                            <div class="table-wrap">
+                                <table id="table-moto2" class="standings standings-full">
+                                    <thead>
+                                        <tr>
+                                            <th>Pos.</th>
+                                            <th class="hide-sm">N°</th>
+                                            <th>Pilote</th>
+                                            <th class="team hide-sm">Écurie</th>
+                                            <th class="hide-md">Constructeur</th>
+                                            <th class="hide-sm">Forme</th>
+                                            <th class="num hide-sm">Vict.</th>
+                                            <th class="num hide-sm">Podiums</th>
+                                            <th class="num hide-sm">Écart</th>
+                                            <th class="num">Points</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr><td colspan="10" class="muted">Chargement…</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="standings-panel hidden" data-cat="moto3">
+                        <div class="podium" id="podium-moto3"></div>
+                        <div class="stat-row" id="stats-moto3"></div>
+                        <div class="table-card">
+                            <div class="table-wrap">
+                                <table id="table-moto3" class="standings standings-full">
+                                    <thead>
+                                        <tr>
+                                            <th>Pos.</th>
+                                            <th class="hide-sm">N°</th>
+                                            <th>Pilote</th>
+                                            <th class="team hide-sm">Écurie</th>
+                                            <th class="hide-md">Constructeur</th>
+                                            <th class="hide-sm">Forme</th>
+                                            <th class="num hide-sm">Vict.</th>
+                                            <th class="num hide-sm">Podiums</th>
+                                            <th class="num hide-sm">Écart</th>
+                                            <th class="num">Points</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr><td colspan="10" class="muted">Chargement…</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-        <table id="table-moto2" class="hidden">
-            <thead>
-                <tr>
-                    <th>Pos.</th>
-                    <th>Pilote</th>
-                    <th>Écurie</th>
-                    <th>Points</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr><td>1</td><td>Manuel González</td><td>LIQUI MOLY Dynavolt Intact GP</td><td>232.5</td></tr>
-                <tr><td>2</td><td>Izan Guevara</td><td>BLU CRU Pramac Yamaha Moto2</td><td>185</td></tr>
-                <tr><td>3</td><td>Iván Ortolá</td><td>QJMOTOR - Green Power - MSI</td><td>157.5</td></tr>
-                <tr><td>4</td><td>Aron Canet</td><td>Fantic Racing</td><td>142</td></tr>
-                <tr><td>5</td><td>Celestino Vietti</td><td>Red Bull KTM Ajo</td><td>138</td></tr>
-                <tr><td>6</td><td>Diogo Moreira</td><td>Italtrans Racing Team</td><td>121</td></tr>
-                <tr><td>7</td><td>Jake Dixon</td><td>CFMoto Aspar Team</td><td>110</td></tr>
-                <tr><td>8</td><td>Joe Roberts</td><td>OnlyFans American Racing</td><td>98</td></tr>
-                <tr><td>9</td><td>Alonso López</td><td>Sync SpeedUp</td><td>95</td></tr>
-                <tr><td>10</td><td>Tony Arbolino</td><td>Elf Marc VDS Racing Team</td><td>88</td></tr>
-            </tbody>
-        </table>
-
-        <table id="table-moto3" class="hidden">
-            <thead>
-                <tr>
-                    <th>Pos.</th>
-                    <th>Pilote</th>
-                    <th>Écurie</th>
-                    <th>Points</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr><td>1</td><td>Máximo Quiles</td><td>CFMoto Gaviota Aspar Team</td><td>281</td></tr>
-                <tr><td>2</td><td>David Almansa</td><td>Liqui Moly Dynavolt Intact GP</td><td>174</td></tr>
-                <tr><td>3</td><td>Álvaro Carpe</td><td>Red Bull KTM Ajo</td><td>159</td></tr>
-                <tr><td>4</td><td>Angel Piqueras</td><td>Leopard Racing</td><td>145</td></tr>
-                <tr><td>5</td><td>David Alonso</td><td>CFMoto Gaviota Aspar Team</td><td>132</td></tr>
-                <tr><td>6</td><td>Collin Veijer</td><td>Husqvarna Intact GP</td><td>120</td></tr>
-                <tr><td>7</td><td>Daniel Holgado</td><td>Red Bull KTM Tech3</td><td>112</td></tr>
-                <tr><td>8</td><td>Ivan Ortolá</td><td>MT Helmets - MSI</td><td>99</td></tr>
-                <tr><td>9</td><td>Jose Antonio Rueda</td><td>Red Bull KTM Ajo</td><td>85</td></tr>
-                <tr><td>10</td><td>Ryusei Yamanaka</td><td>MT Helmets - MSI</td><td>74</td></tr>
-            </tbody>
-        </table>
+                <p class="standings-legend muted small">Forme : positions des trois derniers Grands Prix, du plus ancien au plus récent. NC : non classé ou absent.</p>
+            </div>
+        </section>
     </div>
 
-    <footer>
-        <p>&copy; 2026 PaddockActu - Tous droits réservés.</p>
+    <div id="page-calendrier" class="page hidden">
+        <section class="page-section">
+            <div class="container">
+                <div id="calendar-list-view">
+                    <h2 class="section-title">Calendrier <span class="year" id="calendar-year"></span></h2>
+                    <div class="stat-row stat-row-3" id="calendar-stats"></div>
+                    <ol id="calendar" class="calendar">
+                        <li class="muted">Chargement du calendrier…</li>
+                    </ol>
+                </div>
+
+                <div id="calendar-detail-view" class="hidden">
+                    <a href="#calendrier" class="back-link">&larr; Calendrier</a>
+                    <div id="gp-detail"></div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <a href="#accueil" class="logo">Paddock<span>Actu</span></a>
+            <ul class="footer-links">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#tous-les-articles">Articles</a></li>
+                <li><a href="#classements">Classements</a></li>
+                <li><a href="#calendrier">Calendrier</a></li>
+            </ul>
+            <p class="footer-note">&copy; 2026 PaddockActu. Classements et calendrier issus des données officielles MotoGP, mis à jour automatiquement.</p>
+        </div>
     </footer>
 
-    <script>
-        function masquerToutesLesPages() {
-            document.getElementById('page-accueil').classList.add('hidden');
-            document.getElementById('page-catalogue').classList.add('hidden');
-            document.getElementById('page-classements').classList.add('hidden');
-        }
-
-        function afficherPage(idPage) {
-            masquerToutesLesPages();
-            document.getElementById(idPage).classList.remove('hidden');
-            window.scrollTo(0, 0);
-        }
-
-        function changerCategorie() {
-            const choix = document.getElementById('select-categorie').value;
-            document.getElementById('table-motogp').classList.add('hidden');
-            document.getElementById('table-moto2').classList.add('hidden');
-            document.getElementById('table-moto3').classList.add('hidden');
-
-            document.getElementById('table-' + choix).classList.remove('hidden');
-        }
-
-        function filtrerArticles(tag, boutonClique) {
-            const boutons = document.querySelectorAll('.filter-btn');
-            boutons.forEach(btn => btn.classList.remove('active'));
-            boutonClique.classList.add('active');
-
-            const articles = document.querySelectorAll('#page-catalogue .card-link');
-
-            articles.forEach(article => {
-                const articleTag = article.getAttribute('data-tag');
-                if (tag === 'tous' || articleTag === tag) {
-                    article.style.display = 'block';
-                } else {
-                    article.style.display = 'none';
-                }
-            });
-        }
-
-        async function chargerClassement(categorie) {
-            const tbody = document.querySelector(`#table-${categorie} tbody`);
-            if (!tbody) return;
-
-            const seasonUuid = "e3358f63-ee54-4667-9c9b-0dd8fdd83deb";
-
-            try {
-                const response = await fetch(`data/${categorie}.json?seasonUuid=${seasonUuid}&v=${new Date().getTime()}`);
-                if (!response.ok) return;
-                const data = await response.json();
-
-                if (!data || !data.classification || data.classification.length === 0) return;
-
-                tbody.innerHTML = "";
-
-                data.classification.forEach(item => {
-                    const tr = document.createElement("tr");
-                    tr.innerHTML = `
-                        <td>${item.position || ''}</td>
-                        <td>${item.rider ? item.rider.full_name : ''}</td>
-                        <td>${item.team ? item.team.name : ''}</td>
-                        <td>${item.points || 0}</td>
-                    `;
-                    tbody.appendChild(tr);
-                });
-
-                if (categorie === 'motogp') {
-                    const homeTbody = document.querySelector('#table-home-motogp tbody');
-                    if (homeTbody && data.classification.length >= 3) {
-                        homeTbody.innerHTML = "";
-                        data.classification.slice(0, 3).forEach(item => {
-                            const tr = document.createElement("tr");
-                            tr.innerHTML = `
-                                <td>${item.position || ''}</td>
-                                <td>${item.rider ? item.rider.full_name : ''}</td>
-                                <td>${item.team ? item.team.name : ''}</td>
-                                <td>${item.points || 0}</td>
-                            `;
-                            homeTbody.appendChild(tr);
-                        });
-                    }
-                }
-            } catch (e) {
-                console.log("Erreur de chargement des classements.");
-            }
-        }
-
-        document.addEventListener("DOMContentLoaded", () => {
-            chargerClassement("motogp");
-            chargerClassement("moto2");
-            chargerClassement("moto3");
-        });
-    </script>
+    <script src="js/articles.js"></script>
+    <script src="js/app.js"></script>
 
 </body>
 </html>

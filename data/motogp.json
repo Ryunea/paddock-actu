@@ -1,1 +1,694 @@
-{"error_type":"season_not_found","message":"Season e3358f63-ee54-4667-9c9b-0dd8fdd83deb not found."}
+{
+  "classification": [
+    {
+      "position": 1,
+      "points": 306,
+      "race_wins": 1,
+      "podiums": 7,
+      "sprint_wins": 4,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": 2,
+        "RSM": 5,
+        "ARA": 5
+      },
+      "rider": {
+        "full_name": "Jorge Martin",
+        "number": 89,
+        "country": "ES",
+        "uuid": "5b9af34e-da94-4ca2-9c4c-6be0fc8b1bbc"
+      },
+      "team": {
+        "name": "Aprilia Racing"
+      },
+      "manufacturer": "Aprilia"
+    },
+    {
+      "position": 2,
+      "points": 294,
+      "race_wins": 5,
+      "podiums": 5,
+      "sprint_wins": 6,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": 5,
+        "RSM": 1,
+        "ARA": 1
+      },
+      "rider": {
+        "full_name": "Marc Marquez",
+        "number": 93,
+        "country": "ES",
+        "uuid": "23e50438-a657-4fb0-a190-3262b5472f29"
+      },
+      "team": {
+        "name": "Ducati Lenovo Team"
+      },
+      "manufacturer": "Ducati"
+    },
+    {
+      "position": 3,
+      "points": 264,
+      "race_wins": 4,
+      "podiums": 9,
+      "sprint_wins": 0,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": 3,
+        "RSM": null,
+        "ARA": 3
+      },
+      "rider": {
+        "full_name": "Marco Bezzecchi",
+        "number": 72,
+        "country": "IT",
+        "uuid": "e622ec5b-5ccf-457c-a67f-ec028f0ddf6e"
+      },
+      "team": {
+        "name": "Aprilia Racing"
+      },
+      "manufacturer": "Aprilia"
+    },
+    {
+      "position": 4,
+      "points": 234,
+      "race_wins": 1,
+      "podiums": 6,
+      "sprint_wins": 1,
+      "position_change": 2,
+      "last_positions": {
+        "AUT": 1,
+        "RSM": 3,
+        "ARA": 2
+      },
+      "rider": {
+        "full_name": "Pedro Acosta",
+        "number": 37,
+        "country": "ES",
+        "uuid": "ea39a0af-95d3-4a37-81a7-f332efdb9216"
+      },
+      "team": {
+        "name": "Red Bull KTM Factory Racing"
+      },
+      "manufacturer": "KTM"
+    },
+    {
+      "position": 5,
+      "points": 230,
+      "race_wins": 1,
+      "podiums": 3,
+      "sprint_wins": 0,
+      "position_change": -1,
+      "last_positions": {
+        "AUT": 9,
+        "RSM": 7,
+        "ARA": 7
+      },
+      "rider": {
+        "full_name": "Fabio Di Giannantonio",
+        "number": 49,
+        "country": "IT",
+        "uuid": "525b1551-f10b-4cfd-9b43-59af6fca654b"
+      },
+      "team": {
+        "name": "Pertamina Enduro VR46 Racing Team"
+      },
+      "manufacturer": "Ducati"
+    },
+    {
+      "position": 6,
+      "points": 222,
+      "race_wins": 1,
+      "podiums": 4,
+      "sprint_wins": 0,
+      "position_change": -1,
+      "last_positions": {
+        "AUT": 4,
+        "RSM": null,
+        "ARA": null
+      },
+      "rider": {
+        "full_name": "Ai Ogura",
+        "number": 79,
+        "country": "JP",
+        "uuid": "244b6f51-ac33-40ee-876d-9401dc9d1346"
+      },
+      "team": {
+        "name": "SuperFile Trackhouse MotoGP Team"
+      },
+      "manufacturer": "Aprilia"
+    },
+    {
+      "position": 7,
+      "points": 203,
+      "race_wins": 1,
+      "podiums": 4,
+      "sprint_wins": 2,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": 12,
+        "RSM": 6,
+        "ARA": null
+      },
+      "rider": {
+        "full_name": "Raul Fernandez",
+        "number": 25,
+        "country": "ES",
+        "uuid": "eec1f7dc-b115-44f6-82aa-73130e5c92cf"
+      },
+      "team": {
+        "name": "SuperFile Trackhouse MotoGP Team"
+      },
+      "manufacturer": "Aprilia"
+    },
+    {
+      "position": 8,
+      "points": 158,
+      "race_wins": 1,
+      "podiums": 2,
+      "sprint_wins": 1,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": null,
+        "RSM": 2,
+        "ARA": 4
+      },
+      "rider": {
+        "full_name": "Alex Marquez",
+        "number": 73,
+        "country": "ES",
+        "uuid": "41195f0f-9817-4a4d-913e-c1fbbb351d9b"
+      },
+      "team": {
+        "name": "BK8 Gresini Racing MotoGP"
+      },
+      "manufacturer": "Ducati"
+    },
+    {
+      "position": 9,
+      "points": 156,
+      "race_wins": 0,
+      "podiums": 4,
+      "sprint_wins": 1,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": 7,
+        "RSM": null,
+        "ARA": null
+      },
+      "rider": {
+        "full_name": "Francesco Bagnaia",
+        "number": 63,
+        "country": "IT",
+        "uuid": "66b78301-5826-4986-b11e-fa68a7bd77a7"
+      },
+      "team": {
+        "name": "Ducati Lenovo Team"
+      },
+      "manufacturer": "Ducati"
+    },
+    {
+      "position": 10,
+      "points": 115,
+      "race_wins": 0,
+      "podiums": 1,
+      "sprint_wins": 0,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": 8,
+        "RSM": 4,
+        "ARA": 6
+      },
+      "rider": {
+        "full_name": "Fermin Aldeguer",
+        "number": 54,
+        "country": "ES",
+        "uuid": "71052114-5bce-4307-908c-4cc2bd387aac"
+      },
+      "team": {
+        "name": "BK8 Gresini Racing MotoGP"
+      },
+      "manufacturer": "Ducati"
+    },
+    {
+      "position": 11,
+      "points": 98,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": 0,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": 14,
+        "RSM": 9,
+        "ARA": 14
+      },
+      "rider": {
+        "full_name": "Luca Marini",
+        "number": 10,
+        "country": "IT",
+        "uuid": "5dfc20db-c3c4-4ecd-9c7c-f6cfd042031a"
+      },
+      "team": {
+        "name": "Honda HRC Castrol"
+      },
+      "manufacturer": "Honda"
+    },
+    {
+      "position": 12,
+      "points": 97,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": 0,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": 11,
+        "RSM": 8,
+        "ARA": 8
+      },
+      "rider": {
+        "full_name": "Enea Bastianini",
+        "number": 23,
+        "country": "IT",
+        "uuid": "00db2312-15f2-4333-be5c-4bbff9d17aec"
+      },
+      "team": {
+        "name": "Red Bull KTM Tech3"
+      },
+      "manufacturer": "KTM"
+    },
+    {
+      "position": 13,
+      "points": 94,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": 0,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": 6,
+        "RSM": 11,
+        "ARA": 10
+      },
+      "rider": {
+        "full_name": "Brad Binder",
+        "number": 33,
+        "country": "ZA",
+        "uuid": "ade5ef32-01ea-487c-95ca-491544a668ed"
+      },
+      "team": {
+        "name": "Red Bull KTM Factory Racing"
+      },
+      "manufacturer": "KTM"
+    },
+    {
+      "position": 14,
+      "points": 65,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": 0,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": 15,
+        "RSM": null,
+        "ARA": 9
+      },
+      "rider": {
+        "full_name": "Diogo Moreira",
+        "number": 11,
+        "country": "BR",
+        "uuid": "e2479f8e-dad8-4191-9a6c-9d4aafa8c3a3"
+      },
+      "team": {
+        "name": "Pro Honda LCR"
+      },
+      "manufacturer": "Honda"
+    },
+    {
+      "position": 15,
+      "points": 61,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": 0,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": 17,
+        "RSM": 10,
+        "ARA": 18
+      },
+      "rider": {
+        "full_name": "Fabio Quartararo",
+        "number": 20,
+        "country": "FR",
+        "uuid": "bf95d959-6a60-44f1-84b5-ded861e62578"
+      },
+      "team": {
+        "name": "Monster Energy Yamaha MotoGP Team"
+      },
+      "manufacturer": "Yamaha"
+    },
+    {
+      "position": 16,
+      "points": 56,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": 0,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": 18,
+        "RSM": 13,
+        "ARA": null
+      },
+      "rider": {
+        "full_name": "Franco Morbidelli",
+        "number": 21,
+        "country": "IT",
+        "uuid": "4113c5f7-33c5-4246-b05b-3f81f4ddbd8f"
+      },
+      "team": {
+        "name": "Pertamina Enduro VR46 Racing Team"
+      },
+      "manufacturer": "Ducati"
+    },
+    {
+      "position": 17,
+      "points": 45,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": 0,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": 10,
+        "RSM": null,
+        "ARA": 15
+      },
+      "rider": {
+        "full_name": "Johann Zarco",
+        "number": 5,
+        "country": "FR",
+        "uuid": "4a439bde-305a-4995-b3e7-783fa99f784a"
+      },
+      "team": {
+        "name": "Castrol Honda LCR"
+      },
+      "manufacturer": "Honda"
+    },
+    {
+      "position": 18,
+      "points": 33,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": 0,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": null,
+        "RSM": null,
+        "ARA": 12
+      },
+      "rider": {
+        "full_name": "Joan Mir",
+        "number": 36,
+        "country": "ES",
+        "uuid": "f55f9c34-8621-437b-ae04-ae2418720204"
+      },
+      "team": {
+        "name": "Honda HRC Castrol"
+      },
+      "manufacturer": "Honda"
+    },
+    {
+      "position": 19,
+      "points": 28,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": 0,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": 21,
+        "RSM": null,
+        "ARA": 11
+      },
+      "rider": {
+        "full_name": "Jack Miller",
+        "number": 43,
+        "country": "AU",
+        "uuid": "b0c1fea6-2dd5-4e26-8a18-0ac9fe6870e4"
+      },
+      "team": {
+        "name": "Prima Pramac Yamaha MotoGP"
+      },
+      "manufacturer": "Yamaha"
+    },
+    {
+      "position": 20,
+      "points": 24,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": 0,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": 19,
+        "RSM": null,
+        "ARA": 13
+      },
+      "rider": {
+        "full_name": "Alex Rins",
+        "number": 42,
+        "country": "ES",
+        "uuid": "04bf0ce4-5062-44fc-9745-ec85a8d8f8d3"
+      },
+      "team": {
+        "name": "Monster Energy Yamaha MotoGP Team"
+      },
+      "manufacturer": "Yamaha"
+    },
+    {
+      "position": 21,
+      "points": 18,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": 0,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": 20,
+        "RSM": 12,
+        "ARA": null
+      },
+      "rider": {
+        "full_name": "Toprak Razgatlioglu",
+        "number": 7,
+        "country": "TR",
+        "uuid": "c883a3b8-17ce-419d-b71b-32c252f6fc7e"
+      },
+      "team": {
+        "name": "Prima Pramac Yamaha MotoGP"
+      },
+      "manufacturer": "Yamaha"
+    },
+    {
+      "position": 22,
+      "points": 10,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": 0,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": null,
+        "RSM": null,
+        "ARA": null
+      },
+      "rider": {
+        "full_name": "Maverick Viñales",
+        "number": 12,
+        "country": "ES",
+        "uuid": "71df6f0d-51c3-4cdb-9f5c-51939e6f33f2"
+      },
+      "team": {
+        "name": "Red Bull KTM Tech3"
+      },
+      "manufacturer": "KTM"
+    },
+    {
+      "position": 23,
+      "points": 9,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": 0,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": null,
+        "RSM": null,
+        "ARA": null
+      },
+      "rider": {
+        "full_name": "Iker Lecuona",
+        "number": 27,
+        "country": "ES",
+        "uuid": "92d574d5-d064-4612-bf3e-421d01572512"
+      },
+      "team": {
+        "name": "BK8 Gresini Racing MotoGP"
+      },
+      "manufacturer": "Ducati"
+    },
+    {
+      "position": 24,
+      "points": 6,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": 0,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": null,
+        "RSM": null,
+        "ARA": null
+      },
+      "rider": {
+        "full_name": "Augusto Fernandez",
+        "number": 47,
+        "country": "ES",
+        "uuid": "eb7f90b1-9373-4089-b2f5-adbc234a3526"
+      },
+      "team": {
+        "name": "Yamaha Factory Racing"
+      },
+      "manufacturer": "Yamaha"
+    },
+    {
+      "position": 25,
+      "points": 5,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": 0,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": 16,
+        "RSM": 14,
+        "ARA": 16
+      },
+      "rider": {
+        "full_name": "Pol Espargaro",
+        "number": 44,
+        "country": "ES",
+        "uuid": "b8b255af-e344-4ca7-818b-480c18a11088"
+      },
+      "team": {
+        "name": "Red Bull KTM Tech3"
+      },
+      "manufacturer": "KTM"
+    },
+    {
+      "position": 26,
+      "points": 3,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": 0,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": 13,
+        "RSM": null,
+        "ARA": null
+      },
+      "rider": {
+        "full_name": "Takaaki Nakagami",
+        "number": 30,
+        "country": "JP",
+        "uuid": "a7b4d63f-45b3-402e-b66c-001ed8a62934"
+      },
+      "team": {
+        "name": "Honda HRC Castrol"
+      },
+      "manufacturer": "Honda"
+    },
+    {
+      "position": 27,
+      "points": 0,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": 0,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": null,
+        "RSM": null,
+        "ARA": null
+      },
+      "rider": {
+        "full_name": "Cal Crutchlow",
+        "number": 35,
+        "country": "GB",
+        "uuid": "ec9adf3a-985f-4eb6-8ffd-54b688f49846"
+      },
+      "team": {
+        "name": "Castrol Honda LCR"
+      },
+      "manufacturer": "Honda"
+    },
+    {
+      "position": 28,
+      "points": 0,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": 0,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": null,
+        "RSM": null,
+        "ARA": null
+      },
+      "rider": {
+        "full_name": "Jonas Folger",
+        "number": 94,
+        "country": "DE",
+        "uuid": "93d6c1b8-9853-4939-a926-f26593db8eaf"
+      },
+      "team": {
+        "name": "Red Bull KTM Tech3"
+      },
+      "manufacturer": "KTM"
+    },
+    {
+      "position": 29,
+      "points": 0,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": 0,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": null,
+        "RSM": null,
+        "ARA": 17
+      },
+      "rider": {
+        "full_name": "Lorenzo Savadori",
+        "number": 32,
+        "country": "IT",
+        "uuid": "a1311c17-1099-4893-bba0-347bf43226a4"
+      },
+      "team": {
+        "name": "SuperFile Trackhouse MotoGP Team"
+      },
+      "manufacturer": "Aprilia"
+    },
+    {
+      "position": 30,
+      "points": 0,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": 0,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": null,
+        "RSM": null,
+        "ARA": null
+      },
+      "rider": {
+        "full_name": "Michele Pirro",
+        "number": 51,
+        "country": "IT",
+        "uuid": "7c653b2a-b493-436b-a77e-06a43b37b799"
+      },
+      "team": {
+        "name": "BK8 Gresini Racing MotoGP"
+      },
+      "manufacturer": "Ducati"
+    }
+  ]
+}

@@ -1,1 +1,717 @@
-{"error_type":"season_not_found","message":"Season e3358f63-ee54-4667-9c9b-0dd8fdd83deb not found."}
+{
+  "classification": [
+    {
+      "position": 1,
+      "points": 306,
+      "race_wins": 9,
+      "podiums": 13,
+      "sprint_wins": null,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": 1,
+        "RSM": 1,
+        "ARA": 1
+      },
+      "rider": {
+        "full_name": "Maximo Quiles",
+        "number": 28,
+        "country": "ES",
+        "uuid": "01f85422-d97e-4901-9492-1be9694a4cc2"
+      },
+      "team": {
+        "name": "CFMOTO Gaviota Aspar Team"
+      },
+      "manufacturer": "KTM"
+    },
+    {
+      "position": 2,
+      "points": 175,
+      "race_wins": 0,
+      "podiums": 6,
+      "sprint_wins": null,
+      "position_change": 1,
+      "last_positions": {
+        "AUT": 3,
+        "RSM": 17,
+        "ARA": 4
+      },
+      "rider": {
+        "full_name": "Alvaro Carpe",
+        "number": 83,
+        "country": "ES",
+        "uuid": "992cadcb-08e5-47cf-8b29-cf28d3e941ca"
+      },
+      "team": {
+        "name": "Red Bull KTM Ajo"
+      },
+      "manufacturer": "KTM"
+    },
+    {
+      "position": 3,
+      "points": 174,
+      "race_wins": 2,
+      "podiums": 6,
+      "sprint_wins": null,
+      "position_change": -1,
+      "last_positions": {
+        "AUT": null,
+        "RSM": 2,
+        "ARA": 2
+      },
+      "rider": {
+        "full_name": "David Almansa",
+        "number": 22,
+        "country": "ES",
+        "uuid": "ed2d5631-8fe0-4a21-8449-463657eb7901"
+      },
+      "team": {
+        "name": "Liqui Moly Dynavolt Intact GP"
+      },
+      "manufacturer": "KTM"
+    },
+    {
+      "position": 4,
+      "points": 174,
+      "race_wins": 2,
+      "podiums": 5,
+      "sprint_wins": null,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": 2,
+        "RSM": 3,
+        "ARA": 5
+      },
+      "rider": {
+        "full_name": "Brian Uriarte",
+        "number": 51,
+        "country": "ES",
+        "uuid": "6052c038-a2a3-4eab-9ee0-79bd5f5be209"
+      },
+      "team": {
+        "name": "Red Bull KTM Ajo"
+      },
+      "manufacturer": "KTM"
+    },
+    {
+      "position": 5,
+      "points": 146,
+      "race_wins": 0,
+      "podiums": 4,
+      "sprint_wins": null,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": 8,
+        "RSM": 9,
+        "ARA": 3
+      },
+      "rider": {
+        "full_name": "Marco Morelli",
+        "number": 97,
+        "country": "AR",
+        "uuid": "101ad37a-28d8-4bcc-bf16-dffdd51f1375"
+      },
+      "team": {
+        "name": "CFMOTO Gaviota Aspar Team"
+      },
+      "manufacturer": "KTM"
+    },
+    {
+      "position": 6,
+      "points": 118,
+      "race_wins": 0,
+      "podiums": 2,
+      "sprint_wins": null,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": 12,
+        "RSM": 5,
+        "ARA": 8
+      },
+      "rider": {
+        "full_name": "Valentin Perrone",
+        "number": 73,
+        "country": "AR",
+        "uuid": "c1dbeba7-8a56-40fd-ab57-cd6eb37e63f3"
+      },
+      "team": {
+        "name": "Red Bull KTM Tech3"
+      },
+      "manufacturer": "KTM"
+    },
+    {
+      "position": 7,
+      "points": 101,
+      "race_wins": 1,
+      "podiums": 2,
+      "sprint_wins": null,
+      "position_change": 1,
+      "last_positions": {
+        "AUT": 9,
+        "RSM": 12,
+        "ARA": 12
+      },
+      "rider": {
+        "full_name": "Hakim Danish",
+        "number": 13,
+        "country": "MY",
+        "uuid": "5d81cf1f-1708-47a9-984e-9430afd4a814"
+      },
+      "team": {
+        "name": "AEON Credit - MT Helmets - MSI"
+      },
+      "manufacturer": "KTM"
+    },
+    {
+      "position": 8,
+      "points": 100,
+      "race_wins": 0,
+      "podiums": 2,
+      "sprint_wins": null,
+      "position_change": -1,
+      "last_positions": {
+        "AUT": 13,
+        "RSM": 18,
+        "ARA": 20
+      },
+      "rider": {
+        "full_name": "Veda Pratama",
+        "number": 9,
+        "country": "ID",
+        "uuid": "73085df9-f749-42c4-90b6-6d9863c0f6f4"
+      },
+      "team": {
+        "name": "Honda Team Asia"
+      },
+      "manufacturer": "Honda"
+    },
+    {
+      "position": 9,
+      "points": 86,
+      "race_wins": 0,
+      "podiums": 2,
+      "sprint_wins": null,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": 14,
+        "RSM": 4,
+        "ARA": 11
+      },
+      "rider": {
+        "full_name": "Matteo Bertelle",
+        "number": 18,
+        "country": "IT",
+        "uuid": "fb584b95-a9ed-4d23-8db3-4a946db60fe8"
+      },
+      "team": {
+        "name": "LEVEL UP - MTA"
+      },
+      "manufacturer": "KTM"
+    },
+    {
+      "position": 10,
+      "points": 73,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": null,
+      "position_change": 1,
+      "last_positions": {
+        "AUT": 7,
+        "RSM": 8,
+        "ARA": 6
+      },
+      "rider": {
+        "full_name": "Adrian Cruces",
+        "number": 11,
+        "country": "ES",
+        "uuid": "769510fc-e823-4bf1-8cda-08c1873935e6"
+      },
+      "team": {
+        "name": "CIP Green Power"
+      },
+      "manufacturer": "KTM"
+    },
+    {
+      "position": 11,
+      "points": 70,
+      "race_wins": 1,
+      "podiums": 1,
+      "sprint_wins": null,
+      "position_change": 2,
+      "last_positions": {
+        "AUT": 5,
+        "RSM": 19,
+        "ARA": 9
+      },
+      "rider": {
+        "full_name": "Guido Pini",
+        "number": 94,
+        "country": "IT",
+        "uuid": "808ef2f0-0eb5-4940-be83-41834720c890"
+      },
+      "team": {
+        "name": "Leopard Racing"
+      },
+      "manufacturer": "Honda"
+    },
+    {
+      "position": 12,
+      "points": 70,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": null,
+      "position_change": -2,
+      "last_positions": {
+        "AUT": null,
+        "RSM": 6,
+        "ARA": 22
+      },
+      "rider": {
+        "full_name": "Rico Salmela",
+        "number": 27,
+        "country": "FI",
+        "uuid": "a259beac-40f5-4105-acf7-8f7fb3bd9ea0"
+      },
+      "team": {
+        "name": "Red Bull KTM Tech3"
+      },
+      "manufacturer": "KTM"
+    },
+    {
+      "position": 13,
+      "points": 69,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": null,
+      "position_change": 3,
+      "last_positions": {
+        "AUT": 6,
+        "RSM": 10,
+        "ARA": 7
+      },
+      "rider": {
+        "full_name": "Casey O'gorman",
+        "number": 67,
+        "country": "IE",
+        "uuid": "b909706a-1f29-4f38-8a76-40b1fe651d9c"
+      },
+      "team": {
+        "name": "SIC58 Squadra Corse"
+      },
+      "manufacturer": "Honda"
+    },
+    {
+      "position": 14,
+      "points": 67,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": null,
+      "position_change": -2,
+      "last_positions": {
+        "AUT": 11,
+        "RSM": 7,
+        "ARA": 13
+      },
+      "rider": {
+        "full_name": "Joel Kelso",
+        "number": 66,
+        "country": "AU",
+        "uuid": "5b5fb07a-f0b6-4f7f-9533-18cad7f0c8f2"
+      },
+      "team": {
+        "name": "GRYD Racing"
+      },
+      "manufacturer": "Honda"
+    },
+    {
+      "position": 15,
+      "points": 65,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": null,
+      "position_change": 3,
+      "last_positions": {
+        "AUT": 4,
+        "RSM": 16,
+        "ARA": 14
+      },
+      "rider": {
+        "full_name": "Eddie O'shea",
+        "number": 8,
+        "country": "GB",
+        "uuid": "99fb2930-285a-4300-a251-ccabc60e9af3"
+      },
+      "team": {
+        "name": "GRYD Racing"
+      },
+      "manufacturer": "Honda"
+    },
+    {
+      "position": 16,
+      "points": 59,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": null,
+      "position_change": -2,
+      "last_positions": {
+        "AUT": null,
+        "RSM": 14,
+        "ARA": 10
+      },
+      "rider": {
+        "full_name": "Adrian Fernandez",
+        "number": 31,
+        "country": "ES",
+        "uuid": "587e8e1a-43c4-4372-bde7-34da0b19e0e6"
+      },
+      "team": {
+        "name": "Leopard Racing"
+      },
+      "manufacturer": "Honda"
+    },
+    {
+      "position": 17,
+      "points": 59,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": null,
+      "position_change": -2,
+      "last_positions": {
+        "AUT": 16,
+        "RSM": null,
+        "ARA": 16
+      },
+      "rider": {
+        "full_name": "Joel Esteban",
+        "number": 78,
+        "country": "ES",
+        "uuid": "15049794-9e9a-45da-a2d5-a52d684914a7"
+      },
+      "team": {
+        "name": "LEVEL UP - MTA"
+      },
+      "manufacturer": "KTM"
+    },
+    {
+      "position": 18,
+      "points": 52,
+      "race_wins": 0,
+      "podiums": 2,
+      "sprint_wins": null,
+      "position_change": -1,
+      "last_positions": {
+        "AUT": null,
+        "RSM": null,
+        "ARA": null
+      },
+      "rider": {
+        "full_name": "David Muñoz",
+        "number": 64,
+        "country": "ES",
+        "uuid": "3061875e-1a3f-4b9d-a974-603becd903a7"
+      },
+      "team": {
+        "name": "Liqui Moly Dynavolt Intact GP"
+      },
+      "manufacturer": "KTM"
+    },
+    {
+      "position": 19,
+      "points": 49,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": null,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": 21,
+        "RSM": 20,
+        "ARA": null
+      },
+      "rider": {
+        "full_name": "Jesus Rios",
+        "number": 54,
+        "country": "ES",
+        "uuid": "db613c78-69b0-46b4-98aa-20924c32cfba"
+      },
+      "team": {
+        "name": "Rivacold Snipers Team"
+      },
+      "manufacturer": "Honda"
+    },
+    {
+      "position": 20,
+      "points": 31,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": null,
+      "position_change": 1,
+      "last_positions": {
+        "AUT": 10,
+        "RSM": 13,
+        "ARA": 21
+      },
+      "rider": {
+        "full_name": "Ryusei Yamanaka",
+        "number": 6,
+        "country": "JP",
+        "uuid": "b2570616-5431-4eb3-be49-d79fd4ff86e2"
+      },
+      "team": {
+        "name": "AEON Credit - MT Helmets - MSI"
+      },
+      "manufacturer": "KTM"
+    },
+    {
+      "position": 21,
+      "points": 30,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": null,
+      "position_change": -1,
+      "last_positions": {
+        "AUT": 15,
+        "RSM": 15,
+        "ARA": 15
+      },
+      "rider": {
+        "full_name": "Scott Ogden",
+        "number": 19,
+        "country": "GB",
+        "uuid": "f261e368-80bd-4830-9a2e-1cee3e6b0be4"
+      },
+      "team": {
+        "name": "CIP Green Power"
+      },
+      "manufacturer": "KTM"
+    },
+    {
+      "position": 22,
+      "points": 7,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": null,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": null,
+        "RSM": 11,
+        "ARA": 18
+      },
+      "rider": {
+        "full_name": "David Gonzalez",
+        "number": 71,
+        "country": "ES",
+        "uuid": "cdeb7f8b-c40e-43dd-b3a7-e3a7a859781a"
+      },
+      "team": {
+        "name": "Liqui Moly Dynavolt Intact GP"
+      },
+      "manufacturer": "KTM"
+    },
+    {
+      "position": 23,
+      "points": 6,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": null,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": 17,
+        "RSM": 23,
+        "ARA": null
+      },
+      "rider": {
+        "full_name": "Marcos Uriarte",
+        "number": 88,
+        "country": "ES",
+        "uuid": "c4708bf4-0ca8-4296-8ee3-f153a0fe89b8"
+      },
+      "team": {
+        "name": "CODE Motorsports"
+      },
+      "manufacturer": "KTM"
+    },
+    {
+      "position": 24,
+      "points": 5,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": null,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": null,
+        "RSM": null,
+        "ARA": null
+      },
+      "rider": {
+        "full_name": "Cormac Buchanan",
+        "number": 14,
+        "country": "NZ",
+        "uuid": "a7d44fd6-d27c-4fea-ac27-85953cd45f86"
+      },
+      "team": {
+        "name": "CODE Motorsports"
+      },
+      "manufacturer": "KTM"
+    },
+    {
+      "position": 25,
+      "points": 4,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": null,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": 20,
+        "RSM": null,
+        "ARA": 17
+      },
+      "rider": {
+        "full_name": "Leo Rammerstorfer",
+        "number": 5,
+        "country": "AT",
+        "uuid": "8aef18e2-3cb9-4321-ba88-2eeac2b7a7f3"
+      },
+      "team": {
+        "name": "SIC58 Squadra Corse"
+      },
+      "manufacturer": "Honda"
+    },
+    {
+      "position": 26,
+      "points": 2,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": null,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": 18,
+        "RSM": 22,
+        "ARA": 23
+      },
+      "rider": {
+        "full_name": "Zen Mitani",
+        "number": 32,
+        "country": "JP",
+        "uuid": "11af471d-9074-4d43-8b5e-f33957486f08"
+      },
+      "team": {
+        "name": "Honda Team Asia"
+      },
+      "manufacturer": "Honda"
+    },
+    {
+      "position": 27,
+      "points": 1,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": null,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": 19,
+        "RSM": 21,
+        "ARA": 19
+      },
+      "rider": {
+        "full_name": "Ruche Moodley",
+        "number": 21,
+        "country": "ZA",
+        "uuid": "821c7e78-24dd-4715-a7b6-966b6da2c4d8"
+      },
+      "team": {
+        "name": "CODE Motorsports"
+      },
+      "manufacturer": "KTM"
+    },
+    {
+      "position": 28,
+      "points": 1,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": null,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": null,
+        "RSM": null,
+        "ARA": null
+      },
+      "rider": {
+        "full_name": "Kiattisak Singhapong",
+        "number": 85,
+        "country": "TH",
+        "uuid": "d0314e82-c2fc-4e5d-9237-c3b2b65273f2"
+      },
+      "team": {
+        "name": "Honda Team Asia"
+      },
+      "manufacturer": "Honda"
+    },
+    {
+      "position": 29,
+      "points": 0,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": null,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": 22,
+        "RSM": null,
+        "ARA": null
+      },
+      "rider": {
+        "full_name": "Nicola Carraro",
+        "number": 10,
+        "country": "IT",
+        "uuid": "368ea111-05a4-4102-8564-e59905ae2858"
+      },
+      "team": {
+        "name": "Rivacold Snipers Team"
+      },
+      "manufacturer": "Honda"
+    },
+    {
+      "position": 30,
+      "points": 0,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": null,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": null,
+        "RSM": null,
+        "ARA": null
+      },
+      "rider": {
+        "full_name": "Leonardo Abruzzo",
+        "number": 25,
+        "country": "IT",
+        "uuid": "d661a08c-9a5d-413f-9bf3-7e52cb6a5eb2"
+      },
+      "team": {
+        "name": "CODE Motorsports"
+      },
+      "manufacturer": "KTM"
+    },
+    {
+      "position": 31,
+      "points": 0,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": null,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": null,
+        "RSM": null,
+        "ARA": null
+      },
+      "rider": {
+        "full_name": "Eduardo Gutierrez",
+        "number": 41,
+        "country": "ES",
+        "uuid": "5f493d5b-0f90-4649-8058-8e78e71ce8a0"
+      },
+      "team": {
+        "name": "CODE Motorsports"
+      },
+      "manufacturer": "KTM"
+    }
+  ]
+}

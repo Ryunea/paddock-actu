@@ -1,1 +1,786 @@
-{"error_type":"season_not_found","message":"Season e3358f63-ee54-4667-9c9b-0dd8fdd83deb not found."}
+{
+  "classification": [
+    {
+      "position": 1,
+      "points": 245.5,
+      "race_wins": 5,
+      "podiums": 9,
+      "sprint_wins": null,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": 4,
+        "RSM": 1,
+        "ARA": 6
+      },
+      "rider": {
+        "full_name": "Manuel Gonzalez",
+        "number": 18,
+        "country": "ES",
+        "uuid": "96edcb06-aa78-4976-9559-62186821e48e"
+      },
+      "team": {
+        "name": "LIQUI MOLY Dynavolt Intact GP"
+      },
+      "manufacturer": "Kalex"
+    },
+    {
+      "position": 2,
+      "points": 210,
+      "race_wins": 2,
+      "podiums": 7,
+      "sprint_wins": null,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": 1,
+        "RSM": 6,
+        "ARA": 2
+      },
+      "rider": {
+        "full_name": "Izan Guevara",
+        "number": 28,
+        "country": "ES",
+        "uuid": "28d22e58-56c2-4c94-97fc-09453bfa089f"
+      },
+      "team": {
+        "name": "BLU CRU Pramac Yamaha Moto2"
+      },
+      "manufacturer": "Boscoscuro"
+    },
+    {
+      "position": 3,
+      "points": 168.5,
+      "race_wins": 2,
+      "podiums": 4,
+      "sprint_wins": null,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": 5,
+        "RSM": 4,
+        "ARA": 5
+      },
+      "rider": {
+        "full_name": "Ivan Ortola",
+        "number": 4,
+        "country": "ES",
+        "uuid": "6b517083-20d8-40da-9d92-aeb63cdee89d"
+      },
+      "team": {
+        "name": "QJMOTOR - Campolor - MSI"
+      },
+      "manufacturer": "Kalex"
+    },
+    {
+      "position": 4,
+      "points": 155,
+      "race_wins": 1,
+      "podiums": 4,
+      "sprint_wins": null,
+      "position_change": 1,
+      "last_positions": {
+        "AUT": 3,
+        "RSM": 9,
+        "ARA": 3
+      },
+      "rider": {
+        "full_name": "David Alonso",
+        "number": 80,
+        "country": "CO",
+        "uuid": "96d9b2b4-a26b-427f-b76a-6e1294c341c0"
+      },
+      "team": {
+        "name": "CFMOTO Inde Team"
+      },
+      "manufacturer": "Kalex"
+    },
+    {
+      "position": 5,
+      "points": 149,
+      "race_wins": 2,
+      "podiums": 4,
+      "sprint_wins": null,
+      "position_change": -1,
+      "last_positions": {
+        "AUT": null,
+        "RSM": null,
+        "ARA": 4
+      },
+      "rider": {
+        "full_name": "Senna Agius",
+        "number": 81,
+        "country": "AU",
+        "uuid": "b6abeabd-e023-4537-b808-92844d2b6bd4"
+      },
+      "team": {
+        "name": "LIQUI MOLY Dynavolt Intact GP"
+      },
+      "manufacturer": "Kalex"
+    },
+    {
+      "position": 6,
+      "points": 146,
+      "race_wins": 1,
+      "podiums": 4,
+      "sprint_wins": null,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": 7,
+        "RSM": null,
+        "ARA": 7
+      },
+      "rider": {
+        "full_name": "Daniel Holgado",
+        "number": 96,
+        "country": "ES",
+        "uuid": "845c70b2-fe9b-40b6-a558-692cf5f9e6da"
+      },
+      "team": {
+        "name": "CFMOTO Inde Team"
+      },
+      "manufacturer": "Kalex"
+    },
+    {
+      "position": 7,
+      "points": 128,
+      "race_wins": 1,
+      "podiums": 4,
+      "sprint_wins": null,
+      "position_change": 1,
+      "last_positions": {
+        "AUT": 2,
+        "RSM": null,
+        "ARA": null
+      },
+      "rider": {
+        "full_name": "Filip Salac",
+        "number": 12,
+        "country": "CZ",
+        "uuid": "48af1e5c-5376-43ad-9b26-9a860bef4e1d"
+      },
+      "team": {
+        "name": "OnlyFans American Racing Team"
+      },
+      "manufacturer": "Kalex"
+    },
+    {
+      "position": 8,
+      "points": 123,
+      "race_wins": 0,
+      "podiums": 3,
+      "sprint_wins": null,
+      "position_change": -1,
+      "last_positions": {
+        "AUT": 23,
+        "RSM": 7,
+        "ARA": 14
+      },
+      "rider": {
+        "full_name": "Celestino Vietti",
+        "number": 13,
+        "country": "IT",
+        "uuid": "dd56704e-b40e-4202-8af2-a81b7fd6a82d"
+      },
+      "team": {
+        "name": "BETA Tools SpeedRS Team"
+      },
+      "manufacturer": "Boscoscuro"
+    },
+    {
+      "position": 9,
+      "points": 110.5,
+      "race_wins": 1,
+      "podiums": 1,
+      "sprint_wins": null,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": 6,
+        "RSM": 8,
+        "ARA": 1
+      },
+      "rider": {
+        "full_name": "Alonso Lopez",
+        "number": 21,
+        "country": "ES",
+        "uuid": "88ec0ae1-53e4-48d4-8c60-6b74210d7552"
+      },
+      "team": {
+        "name": "ITALJET Gresini Moto2"
+      },
+      "manufacturer": "Kalex"
+    },
+    {
+      "position": 10,
+      "points": 75.5,
+      "race_wins": 0,
+      "podiums": 2,
+      "sprint_wins": null,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": null,
+        "RSM": 2,
+        "ARA": null
+      },
+      "rider": {
+        "full_name": "Collin Veijer",
+        "number": 95,
+        "country": "NL",
+        "uuid": "08783adb-15e8-49e4-a6ea-c3ede3d94e7c"
+      },
+      "team": {
+        "name": "Red Bull KTM Ajo"
+      },
+      "manufacturer": "Kalex"
+    },
+    {
+      "position": 11,
+      "points": 68,
+      "race_wins": 0,
+      "podiums": 1,
+      "sprint_wins": null,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": 11,
+        "RSM": 12,
+        "ARA": 11
+      },
+      "rider": {
+        "full_name": "Daniel Muñoz",
+        "number": 17,
+        "country": "ES",
+        "uuid": "be57d739-ceff-4bd4-b612-08100cae9990"
+      },
+      "team": {
+        "name": "Italtrans Racing Team"
+      },
+      "manufacturer": "Kalex"
+    },
+    {
+      "position": 12,
+      "points": 63,
+      "race_wins": 0,
+      "podiums": 1,
+      "sprint_wins": null,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": null,
+        "RSM": 10,
+        "ARA": 9
+      },
+      "rider": {
+        "full_name": "Alex Escrig",
+        "number": 11,
+        "country": "ES",
+        "uuid": "57787b04-f675-4877-a72a-b5340a45109a"
+      },
+      "team": {
+        "name": "KLINT Racing Team"
+      },
+      "manufacturer": "Forward"
+    },
+    {
+      "position": 13,
+      "points": 60,
+      "race_wins": 0,
+      "podiums": 1,
+      "sprint_wins": null,
+      "position_change": 1,
+      "last_positions": {
+        "AUT": 8,
+        "RSM": 3,
+        "ARA": 15
+      },
+      "rider": {
+        "full_name": "Barry Baltus",
+        "number": 7,
+        "country": "BE",
+        "uuid": "31d9d715-4dbc-4d12-8a21-f2daffb62d7f"
+      },
+      "team": {
+        "name": "REDS Fantic Racing"
+      },
+      "manufacturer": "Kalex"
+    },
+    {
+      "position": 14,
+      "points": 55.5,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": null,
+      "position_change": -1,
+      "last_positions": {
+        "AUT": 14,
+        "RSM": 5,
+        "ARA": 16
+      },
+      "rider": {
+        "full_name": "Tony Arbolino",
+        "number": 14,
+        "country": "IT",
+        "uuid": "5c8bbc11-a1aa-4f55-b9dc-f2e8b7c33ceb"
+      },
+      "team": {
+        "name": "REDS Fantic Racing"
+      },
+      "manufacturer": "Kalex"
+    },
+    {
+      "position": 15,
+      "points": 44,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": null,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": 15,
+        "RSM": 13,
+        "ARA": 12
+      },
+      "rider": {
+        "full_name": "Joe Roberts",
+        "number": 16,
+        "country": "US",
+        "uuid": "3157c88e-bd94-4851-9fe2-1d7458f65a1e"
+      },
+      "team": {
+        "name": "OnlyFans American Racing Team"
+      },
+      "manufacturer": "Kalex"
+    },
+    {
+      "position": 16,
+      "points": 38.5,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": null,
+      "position_change": 1,
+      "last_positions": {
+        "AUT": 9,
+        "RSM": 20,
+        "ARA": 8
+      },
+      "rider": {
+        "full_name": "Deniz öncü",
+        "number": 53,
+        "country": "TR",
+        "uuid": "7f2593e1-d17e-4a83-9890-d9c383b29898"
+      },
+      "team": {
+        "name": "ELF Marc VDS Racing Team"
+      },
+      "manufacturer": "Boscoscuro"
+    },
+    {
+      "position": 17,
+      "points": 37,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": null,
+      "position_change": -1,
+      "last_positions": {
+        "AUT": 19,
+        "RSM": 11,
+        "ARA": 10
+      },
+      "rider": {
+        "full_name": "Adrian Huertas",
+        "number": 99,
+        "country": "ES",
+        "uuid": "8293f58c-2182-4c77-958f-6de9e9dca168"
+      },
+      "team": {
+        "name": "Italtrans Racing Team"
+      },
+      "manufacturer": "Kalex"
+    },
+    {
+      "position": 18,
+      "points": 31,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": null,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": 12,
+        "RSM": 21,
+        "ARA": 17
+      },
+      "rider": {
+        "full_name": "Jose Antonio Rueda",
+        "number": 98,
+        "country": "ES",
+        "uuid": "553b174a-1c06-4bed-82b4-efcc035f1a4e"
+      },
+      "team": {
+        "name": "Red Bull KTM Ajo"
+      },
+      "manufacturer": "Kalex"
+    },
+    {
+      "position": 19,
+      "points": 23,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": null,
+      "position_change": 2,
+      "last_positions": {
+        "AUT": 10,
+        "RSM": 23,
+        "ARA": 18
+      },
+      "rider": {
+        "full_name": "Luca Lunetta",
+        "number": 32,
+        "country": "IT",
+        "uuid": "4023fb10-6a03-420b-a9e1-9926066ab154"
+      },
+      "team": {
+        "name": "BETA Tools SpeedRS Team"
+      },
+      "manufacturer": "Boscoscuro"
+    },
+    {
+      "position": 20,
+      "points": 19,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": null,
+      "position_change": -1,
+      "last_positions": {
+        "AUT": 22,
+        "RSM": null,
+        "ARA": 13
+      },
+      "rider": {
+        "full_name": "Ayumu Sasaki",
+        "number": 71,
+        "country": "JP",
+        "uuid": "ae003ef7-aff4-4903-ab7a-0c40997baa0a"
+      },
+      "team": {
+        "name": "Momoven Idrofoglia RW Racing Team"
+      },
+      "manufacturer": "Kalex"
+    },
+    {
+      "position": 21,
+      "points": 17.5,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": null,
+      "position_change": -1,
+      "last_positions": {
+        "AUT": null,
+        "RSM": 14,
+        "ARA": 21
+      },
+      "rider": {
+        "full_name": "Alberto Ferrandez",
+        "number": 54,
+        "country": "ES",
+        "uuid": "c534aae8-f63b-4f14-8a7e-4c6780c80685"
+      },
+      "team": {
+        "name": "BLU CRU Pramac Yamaha Moto2"
+      },
+      "manufacturer": "Boscoscuro"
+    },
+    {
+      "position": 22,
+      "points": 17.5,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": null,
+      "position_change": 1,
+      "last_positions": {
+        "AUT": 13,
+        "RSM": 15,
+        "ARA": 25
+      },
+      "rider": {
+        "full_name": "Aron Canet",
+        "number": 44,
+        "country": "ES",
+        "uuid": "12e072c6-c19b-4c35-a9c4-2c7deba15cb0"
+      },
+      "team": {
+        "name": "ELF Marc VDS Racing Team"
+      },
+      "manufacturer": "Boscoscuro"
+    },
+    {
+      "position": 23,
+      "points": 15,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": null,
+      "position_change": -1,
+      "last_positions": {
+        "AUT": 18,
+        "RSM": 17,
+        "ARA": 19
+      },
+      "rider": {
+        "full_name": "Taiyo Furusato",
+        "number": 72,
+        "country": "JP",
+        "uuid": "e983f2ed-5bac-4ae7-9b54-3ab5fc357500"
+      },
+      "team": {
+        "name": "Idemitsu Honda Team Asia"
+      },
+      "manufacturer": "Kalex"
+    },
+    {
+      "position": 24,
+      "points": 12,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": null,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": 20,
+        "RSM": 19,
+        "ARA": 23
+      },
+      "rider": {
+        "full_name": "Zonta Vd Goorbergh",
+        "number": 84,
+        "country": "NL",
+        "uuid": "206c1c78-6d79-4e13-9568-5a90138ece2b"
+      },
+      "team": {
+        "name": "Momoven Idrofoglia RW Racing Team"
+      },
+      "manufacturer": "Kalex"
+    },
+    {
+      "position": 25,
+      "points": 11,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": null,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": 24,
+        "RSM": 18,
+        "ARA": 22
+      },
+      "rider": {
+        "full_name": "Sergio Garcia",
+        "number": 3,
+        "country": "ES",
+        "uuid": "6251aee5-6e36-455c-8b43-e6fd1753fd8d"
+      },
+      "team": {
+        "name": "ITALJET Gresini Moto2"
+      },
+      "manufacturer": "Kalex"
+    },
+    {
+      "position": 26,
+      "points": 4,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": null,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": null,
+        "RSM": null,
+        "ARA": null
+      },
+      "rider": {
+        "full_name": "Angel Piqueras",
+        "number": 36,
+        "country": "ES",
+        "uuid": "97116ba3-5971-4304-be84-451bdc9a563c"
+      },
+      "team": {
+        "name": "QJMOTOR - Campolor - MSI"
+      },
+      "manufacturer": "Kalex"
+    },
+    {
+      "position": 27,
+      "points": 3,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": null,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": 17,
+        "RSM": 22,
+        "ARA": 24
+      },
+      "rider": {
+        "full_name": "Mario Aji",
+        "number": 64,
+        "country": "ID",
+        "uuid": "59d0a2fb-df55-46d8-a57f-bf81ca690a5b"
+      },
+      "team": {
+        "name": "Idemitsu Honda Team Asia"
+      },
+      "manufacturer": "Kalex"
+    },
+    {
+      "position": 28,
+      "points": 0,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": null,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": 21,
+        "RSM": 16,
+        "ARA": 20
+      },
+      "rider": {
+        "full_name": "Marcos Ramirez",
+        "number": 24,
+        "country": "ES",
+        "uuid": "711cd7a3-7e13-413b-8de2-08d5bf4070f4"
+      },
+      "team": {
+        "name": "KLINT Racing Team"
+      },
+      "manufacturer": "Forward"
+    },
+    {
+      "position": 29,
+      "points": 0,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": null,
+      "position_change": 2,
+      "last_positions": {
+        "AUT": 16,
+        "RSM": null,
+        "ARA": 26
+      },
+      "rider": {
+        "full_name": "Xabi Zurutuza",
+        "number": 85,
+        "country": "ES",
+        "uuid": "8861fef1-5380-4d96-b45d-b5c469c04df2"
+      },
+      "team": {
+        "name": "KLINT Racing Team"
+      },
+      "manufacturer": "Forward"
+    },
+    {
+      "position": 30,
+      "points": 0,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": null,
+      "position_change": -1,
+      "last_positions": {
+        "AUT": null,
+        "RSM": null,
+        "ARA": null
+      },
+      "rider": {
+        "full_name": "Unai Orradre",
+        "number": 10,
+        "country": "ES",
+        "uuid": "a357a14a-bdd0-4b0a-8c75-948b5233cbad"
+      },
+      "team": {
+        "name": "QJMOTOR - Campolor - MSI"
+      },
+      "manufacturer": "Kalex"
+    },
+    {
+      "position": 31,
+      "points": 0,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": null,
+      "position_change": -1,
+      "last_positions": {
+        "AUT": null,
+        "RSM": null,
+        "ARA": null
+      },
+      "rider": {
+        "full_name": "Jorge Navarro",
+        "number": 9,
+        "country": "ES",
+        "uuid": "57f4c236-d465-4161-8e22-7426f4da36eb"
+      },
+      "team": {
+        "name": "REDS Fantic Racing"
+      },
+      "manufacturer": "Kalex"
+    },
+    {
+      "position": 32,
+      "points": 0,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": null,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": null,
+        "RSM": null,
+        "ARA": null
+      },
+      "rider": {
+        "full_name": "Dennis Foggia",
+        "number": 8,
+        "country": "IT",
+        "uuid": "a90f6d5b-cba7-45cd-932e-308514518b80"
+      },
+      "team": {
+        "name": "BETA Tools SpeedRS Team"
+      },
+      "manufacturer": "Boscoscuro"
+    },
+    {
+      "position": 33,
+      "points": 0,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": null,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": null,
+        "RSM": null,
+        "ARA": null
+      },
+      "rider": {
+        "full_name": "Jacob Roulstone",
+        "number": 22,
+        "country": "AU",
+        "uuid": "2d9bd73c-a0ef-4ade-8ab4-f91b0a085c4f"
+      },
+      "team": {
+        "name": "Idemitsu Honda Team Asia"
+      },
+      "manufacturer": "Kalex"
+    },
+    {
+      "position": 34,
+      "points": 0,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": null,
+      "position_change": 0,
+      "last_positions": {
+        "AUT": null,
+        "RSM": null,
+        "ARA": null
+      },
+      "rider": {
+        "full_name": "Milan Pawelec",
+        "number": 40,
+        "country": "PL",
+        "uuid": "949e1296-9cf4-4569-8923-dc62beb5521f"
+      },
+      "team": {
+        "name": "ITALJET Gresini Moto2"
+      },
+      "manufacturer": "Kalex"
+    }
+  ]
+}

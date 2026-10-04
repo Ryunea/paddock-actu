@@ -2,15 +2,15 @@
   "classification": [
     {
       "position": 1,
-      "points": 313,
+      "points": 333,
       "race_wins": 1,
-      "podiums": 7,
+      "podiums": 8,
       "sprint_wins": 4,
       "position_change": 0,
       "last_positions": {
+        "JPN": 2,
         "AUT": 2,
-        "RSM": 5,
-        "ARA": 5
+        "RSM": 5
       },
       "rider": {
         "full_name": "Jorge Martin",
@@ -25,15 +25,15 @@
     },
     {
       "position": 2,
-      "points": 306,
-      "race_wins": 5,
-      "podiums": 5,
+      "points": 331,
+      "race_wins": 6,
+      "podiums": 6,
       "sprint_wins": 7,
       "position_change": 0,
       "last_positions": {
+        "JPN": 1,
         "AUT": 5,
-        "RSM": 1,
-        "ARA": 1
+        "RSM": 1
       },
       "rider": {
         "full_name": "Marc Marquez",
@@ -48,15 +48,15 @@
     },
     {
       "position": 3,
-      "points": 268,
+      "points": 284,
       "race_wins": 4,
-      "podiums": 9,
+      "podiums": 10,
       "sprint_wins": 0,
       "position_change": 0,
       "last_positions": {
+        "JPN": 3,
         "AUT": 3,
-        "RSM": null,
-        "ARA": 3
+        "RSM": null
       },
       "rider": {
         "full_name": "Marco Bezzecchi",
@@ -71,15 +71,15 @@
     },
     {
       "position": 4,
-      "points": 234,
+      "points": 243,
       "race_wins": 1,
       "podiums": 6,
       "sprint_wins": 1,
       "position_change": 0,
       "last_positions": {
+        "JPN": 7,
         "AUT": 1,
-        "RSM": 3,
-        "ARA": 2
+        "RSM": 3
       },
       "rider": {
         "full_name": "Pedro Acosta",
@@ -94,38 +94,15 @@
     },
     {
       "position": 5,
-      "points": 230,
-      "race_wins": 1,
-      "podiums": 3,
-      "sprint_wins": 0,
-      "position_change": 0,
-      "last_positions": {
-        "AUT": 9,
-        "RSM": 7,
-        "ARA": 7
-      },
-      "rider": {
-        "full_name": "Fabio Di Giannantonio",
-        "number": 49,
-        "country": "IT",
-        "uuid": "525b1551-f10b-4cfd-9b43-59af6fca654b"
-      },
-      "team": {
-        "name": "Pertamina Enduro VR46 Racing Team"
-      },
-      "manufacturer": "Ducati"
-    },
-    {
-      "position": 6,
-      "points": 227,
+      "points": 237,
       "race_wins": 1,
       "podiums": 4,
       "sprint_wins": 0,
-      "position_change": 0,
+      "position_change": 1,
       "last_positions": {
+        "JPN": 6,
         "AUT": 4,
-        "RSM": null,
-        "ARA": null
+        "RSM": null
       },
       "rider": {
         "full_name": "Ai Ogura",
@@ -139,16 +116,39 @@
       "manufacturer": "Aprilia"
     },
     {
+      "position": 6,
+      "points": 230,
+      "race_wins": 1,
+      "podiums": 3,
+      "sprint_wins": 0,
+      "position_change": -1,
+      "last_positions": {
+        "JPN": 18,
+        "AUT": 9,
+        "RSM": 7
+      },
+      "rider": {
+        "full_name": "Fabio Di Giannantonio",
+        "number": 49,
+        "country": "IT",
+        "uuid": "525b1551-f10b-4cfd-9b43-59af6fca654b"
+      },
+      "team": {
+        "name": "Pertamina Enduro VR46 Racing Team"
+      },
+      "manufacturer": "Ducati"
+    },
+    {
       "position": 7,
-      "points": 205,
+      "points": 216,
       "race_wins": 1,
       "podiums": 4,
       "sprint_wins": 2,
       "position_change": 0,
       "last_positions": {
+        "JPN": 5,
         "AUT": 12,
-        "RSM": 6,
-        "ARA": null
+        "RSM": 6
       },
       "rider": {
         "full_name": "Raul Fernandez",
@@ -163,38 +163,15 @@
     },
     {
       "position": 8,
-      "points": 158,
-      "race_wins": 1,
-      "podiums": 2,
-      "sprint_wins": 1,
-      "position_change": 0,
-      "last_positions": {
-        "AUT": null,
-        "RSM": 2,
-        "ARA": 4
-      },
-      "rider": {
-        "full_name": "Alex Marquez",
-        "number": 73,
-        "country": "ES",
-        "uuid": "41195f0f-9817-4a4d-913e-c1fbbb351d9b"
-      },
-      "team": {
-        "name": "BK8 Gresini Racing MotoGP"
-      },
-      "manufacturer": "Ducati"
-    },
-    {
-      "position": 9,
-      "points": 156,
+      "points": 164,
       "race_wins": 0,
       "podiums": 4,
       "sprint_wins": 1,
-      "position_change": 0,
+      "position_change": 1,
       "last_positions": {
+        "JPN": 8,
         "AUT": 7,
-        "RSM": null,
-        "ARA": null
+        "RSM": null
       },
       "rider": {
         "full_name": "Francesco Bagnaia",
@@ -208,16 +185,39 @@
       "manufacturer": "Ducati"
     },
     {
+      "position": 9,
+      "points": 158,
+      "race_wins": 1,
+      "podiums": 2,
+      "sprint_wins": 1,
+      "position_change": -1,
+      "last_positions": {
+        "JPN": null,
+        "AUT": null,
+        "RSM": 2
+      },
+      "rider": {
+        "full_name": "Alex Marquez",
+        "number": 73,
+        "country": "ES",
+        "uuid": "41195f0f-9817-4a4d-913e-c1fbbb351d9b"
+      },
+      "team": {
+        "name": "BK8 Gresini Racing MotoGP"
+      },
+      "manufacturer": "Ducati"
+    },
+    {
       "position": 10,
-      "points": 115,
+      "points": 122,
       "race_wins": 0,
       "podiums": 1,
       "sprint_wins": 0,
       "position_change": 0,
       "last_positions": {
+        "JPN": 9,
         "AUT": 8,
-        "RSM": 4,
-        "ARA": 6
+        "RSM": 4
       },
       "rider": {
         "full_name": "Fermin Aldeguer",
@@ -232,15 +232,15 @@
     },
     {
       "position": 11,
-      "points": 103,
+      "points": 116,
       "race_wins": 0,
       "podiums": 0,
       "sprint_wins": 0,
-      "position_change": 1,
+      "position_change": 0,
       "last_positions": {
+        "JPN": 4,
         "AUT": 11,
-        "RSM": 8,
-        "ARA": 8
+        "RSM": 8
       },
       "rider": {
         "full_name": "Enea Bastianini",
@@ -255,15 +255,15 @@
     },
     {
       "position": 12,
-      "points": 98,
+      "points": 104,
       "race_wins": 0,
       "podiums": 0,
       "sprint_wins": 0,
-      "position_change": -1,
+      "position_change": 0,
       "last_positions": {
+        "JPN": 10,
         "AUT": 14,
-        "RSM": 9,
-        "ARA": 14
+        "RSM": 9
       },
       "rider": {
         "full_name": "Luca Marini",
@@ -278,15 +278,15 @@
     },
     {
       "position": 13,
-      "points": 94,
+      "points": 99,
       "race_wins": 0,
       "podiums": 0,
       "sprint_wins": 0,
       "position_change": 0,
       "last_positions": {
+        "JPN": 11,
         "AUT": 6,
-        "RSM": 11,
-        "ARA": 10
+        "RSM": 11
       },
       "rider": {
         "full_name": "Brad Binder",
@@ -307,9 +307,9 @@
       "sprint_wins": 0,
       "position_change": 0,
       "last_positions": {
+        "JPN": null,
         "AUT": 15,
-        "RSM": null,
-        "ARA": 9
+        "RSM": null
       },
       "rider": {
         "full_name": "Diogo Moreira",
@@ -324,15 +324,15 @@
     },
     {
       "position": 15,
-      "points": 62,
+      "points": 66,
       "race_wins": 0,
       "podiums": 0,
       "sprint_wins": 0,
       "position_change": 0,
       "last_positions": {
+        "JPN": 12,
         "AUT": 17,
-        "RSM": 10,
-        "ARA": 18
+        "RSM": 10
       },
       "rider": {
         "full_name": "Fabio Quartararo",
@@ -347,15 +347,15 @@
     },
     {
       "position": 16,
-      "points": 56,
+      "points": 57,
       "race_wins": 0,
       "podiums": 0,
       "sprint_wins": 0,
       "position_change": 0,
       "last_positions": {
+        "JPN": 15,
         "AUT": 18,
-        "RSM": 13,
-        "ARA": null
+        "RSM": 13
       },
       "rider": {
         "full_name": "Franco Morbidelli",
@@ -376,9 +376,9 @@
       "sprint_wins": 0,
       "position_change": 0,
       "last_positions": {
+        "JPN": 20,
         "AUT": 10,
-        "RSM": null,
-        "ARA": 15
+        "RSM": null
       },
       "rider": {
         "full_name": "Johann Zarco",
@@ -399,9 +399,9 @@
       "sprint_wins": 0,
       "position_change": 0,
       "last_positions": {
+        "JPN": null,
         "AUT": null,
-        "RSM": null,
-        "ARA": 12
+        "RSM": null
       },
       "rider": {
         "full_name": "Joan Mir",
@@ -422,9 +422,9 @@
       "sprint_wins": 0,
       "position_change": 0,
       "last_positions": {
+        "JPN": 19,
         "AUT": 21,
-        "RSM": null,
-        "ARA": 11
+        "RSM": null
       },
       "rider": {
         "full_name": "Jack Miller",
@@ -445,9 +445,9 @@
       "sprint_wins": 0,
       "position_change": 0,
       "last_positions": {
+        "JPN": 16,
         "AUT": 19,
-        "RSM": null,
-        "ARA": 13
+        "RSM": null
       },
       "rider": {
         "full_name": "Alex Rins",
@@ -468,9 +468,9 @@
       "sprint_wins": 0,
       "position_change": 0,
       "last_positions": {
+        "JPN": 17,
         "AUT": 20,
-        "RSM": 12,
-        "ARA": null
+        "RSM": 12
       },
       "rider": {
         "full_name": "Toprak Razgatlioglu",
@@ -485,15 +485,15 @@
     },
     {
       "position": 22,
-      "points": 10,
+      "points": 12,
       "race_wins": 0,
       "podiums": 0,
       "sprint_wins": 0,
       "position_change": 0,
       "last_positions": {
+        "JPN": 14,
         "AUT": null,
-        "RSM": null,
-        "ARA": null
+        "RSM": null
       },
       "rider": {
         "full_name": "Maverick Viñales",
@@ -514,9 +514,9 @@
       "sprint_wins": 0,
       "position_change": 0,
       "last_positions": {
+        "JPN": null,
         "AUT": null,
-        "RSM": null,
-        "ARA": null
+        "RSM": null
       },
       "rider": {
         "full_name": "Iker Lecuona",
@@ -537,9 +537,9 @@
       "sprint_wins": 0,
       "position_change": 0,
       "last_positions": {
+        "JPN": null,
         "AUT": null,
-        "RSM": null,
-        "ARA": null
+        "RSM": null
       },
       "rider": {
         "full_name": "Augusto Fernandez",
@@ -560,9 +560,9 @@
       "sprint_wins": 0,
       "position_change": 0,
       "last_positions": {
+        "JPN": null,
         "AUT": 16,
-        "RSM": 14,
-        "ARA": 16
+        "RSM": 14
       },
       "rider": {
         "full_name": "Pol Espargaro",
@@ -581,34 +581,11 @@
       "race_wins": 0,
       "podiums": 0,
       "sprint_wins": 0,
-      "position_change": 0,
+      "position_change": 1,
       "last_positions": {
-        "AUT": 13,
-        "RSM": null,
-        "ARA": null
-      },
-      "rider": {
-        "full_name": "Takaaki Nakagami",
-        "number": 30,
-        "country": "JP",
-        "uuid": "a7b4d63f-45b3-402e-b66c-001ed8a62934"
-      },
-      "team": {
-        "name": "Honda HRC Castrol"
-      },
-      "manufacturer": "Honda"
-    },
-    {
-      "position": 27,
-      "points": 0,
-      "race_wins": 0,
-      "podiums": 0,
-      "sprint_wins": 0,
-      "position_change": 0,
-      "last_positions": {
+        "JPN": 13,
         "AUT": null,
-        "RSM": null,
-        "ARA": null
+        "RSM": null
       },
       "rider": {
         "full_name": "Somkiat Chantra",
@@ -622,16 +599,39 @@
       "manufacturer": "Honda"
     },
     {
-      "position": 28,
-      "points": 0,
+      "position": 27,
+      "points": 3,
       "race_wins": 0,
       "podiums": 0,
       "sprint_wins": 0,
       "position_change": -1,
       "last_positions": {
+        "JPN": null,
+        "AUT": 13,
+        "RSM": null
+      },
+      "rider": {
+        "full_name": "Takaaki Nakagami",
+        "number": 30,
+        "country": "JP",
+        "uuid": "a7b4d63f-45b3-402e-b66c-001ed8a62934"
+      },
+      "team": {
+        "name": "Honda HRC Castrol"
+      },
+      "manufacturer": "Honda"
+    },
+    {
+      "position": 28,
+      "points": 0,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": 0,
+      "position_change": 0,
+      "last_positions": {
+        "JPN": null,
         "AUT": null,
-        "RSM": null,
-        "ARA": null
+        "RSM": null
       },
       "rider": {
         "full_name": "Cal Crutchlow",
@@ -650,11 +650,11 @@
       "race_wins": 0,
       "podiums": 0,
       "sprint_wins": 0,
-      "position_change": -1,
+      "position_change": 0,
       "last_positions": {
+        "JPN": null,
         "AUT": null,
-        "RSM": null,
-        "ARA": null
+        "RSM": null
       },
       "rider": {
         "full_name": "Jonas Folger",
@@ -673,11 +673,11 @@
       "race_wins": 0,
       "podiums": 0,
       "sprint_wins": 0,
-      "position_change": -1,
+      "position_change": 0,
       "last_positions": {
+        "JPN": null,
         "AUT": null,
-        "RSM": null,
-        "ARA": 17
+        "RSM": null
       },
       "rider": {
         "full_name": "Lorenzo Savadori",
@@ -696,11 +696,11 @@
       "race_wins": 0,
       "podiums": 0,
       "sprint_wins": 0,
-      "position_change": -1,
+      "position_change": 0,
       "last_positions": {
+        "JPN": null,
         "AUT": null,
-        "RSM": null,
-        "ARA": null
+        "RSM": null
       },
       "rider": {
         "full_name": "Michele Pirro",

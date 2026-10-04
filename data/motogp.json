@@ -2,7 +2,7 @@
   "classification": [
     {
       "position": 1,
-      "points": 306,
+      "points": 313,
       "race_wins": 1,
       "podiums": 7,
       "sprint_wins": 4,
@@ -25,10 +25,10 @@
     },
     {
       "position": 2,
-      "points": 294,
+      "points": 306,
       "race_wins": 5,
       "podiums": 5,
-      "sprint_wins": 6,
+      "sprint_wins": 7,
       "position_change": 0,
       "last_positions": {
         "AUT": 5,
@@ -48,7 +48,7 @@
     },
     {
       "position": 3,
-      "points": 264,
+      "points": 268,
       "race_wins": 4,
       "podiums": 9,
       "sprint_wins": 0,
@@ -75,7 +75,7 @@
       "race_wins": 1,
       "podiums": 6,
       "sprint_wins": 1,
-      "position_change": 2,
+      "position_change": 0,
       "last_positions": {
         "AUT": 1,
         "RSM": 3,
@@ -98,7 +98,7 @@
       "race_wins": 1,
       "podiums": 3,
       "sprint_wins": 0,
-      "position_change": -1,
+      "position_change": 0,
       "last_positions": {
         "AUT": 9,
         "RSM": 7,
@@ -117,11 +117,11 @@
     },
     {
       "position": 6,
-      "points": 222,
+      "points": 227,
       "race_wins": 1,
       "podiums": 4,
       "sprint_wins": 0,
-      "position_change": -1,
+      "position_change": 0,
       "last_positions": {
         "AUT": 4,
         "RSM": null,
@@ -140,7 +140,7 @@
     },
     {
       "position": 7,
-      "points": 203,
+      "points": 205,
       "race_wins": 1,
       "podiums": 4,
       "sprint_wins": 2,
@@ -232,34 +232,11 @@
     },
     {
       "position": 11,
-      "points": 98,
+      "points": 103,
       "race_wins": 0,
       "podiums": 0,
       "sprint_wins": 0,
-      "position_change": 0,
-      "last_positions": {
-        "AUT": 14,
-        "RSM": 9,
-        "ARA": 14
-      },
-      "rider": {
-        "full_name": "Luca Marini",
-        "number": 10,
-        "country": "IT",
-        "uuid": "5dfc20db-c3c4-4ecd-9c7c-f6cfd042031a"
-      },
-      "team": {
-        "name": "Honda HRC Castrol"
-      },
-      "manufacturer": "Honda"
-    },
-    {
-      "position": 12,
-      "points": 97,
-      "race_wins": 0,
-      "podiums": 0,
-      "sprint_wins": 0,
-      "position_change": 0,
+      "position_change": 1,
       "last_positions": {
         "AUT": 11,
         "RSM": 8,
@@ -275,6 +252,29 @@
         "name": "Red Bull KTM Tech3"
       },
       "manufacturer": "KTM"
+    },
+    {
+      "position": 12,
+      "points": 98,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": 0,
+      "position_change": -1,
+      "last_positions": {
+        "AUT": 14,
+        "RSM": 9,
+        "ARA": 14
+      },
+      "rider": {
+        "full_name": "Luca Marini",
+        "number": 10,
+        "country": "IT",
+        "uuid": "5dfc20db-c3c4-4ecd-9c7c-f6cfd042031a"
+      },
+      "team": {
+        "name": "Honda HRC Castrol"
+      },
+      "manufacturer": "Honda"
     },
     {
       "position": 13,
@@ -301,7 +301,7 @@
     },
     {
       "position": 14,
-      "points": 65,
+      "points": 74,
       "race_wins": 0,
       "podiums": 0,
       "sprint_wins": 0,
@@ -324,7 +324,7 @@
     },
     {
       "position": 15,
-      "points": 61,
+      "points": 62,
       "race_wins": 0,
       "podiums": 0,
       "sprint_wins": 0,
@@ -370,7 +370,7 @@
     },
     {
       "position": 17,
-      "points": 45,
+      "points": 48,
       "race_wins": 0,
       "podiums": 0,
       "sprint_wins": 0,
@@ -611,6 +611,29 @@
         "ARA": null
       },
       "rider": {
+        "full_name": "Somkiat Chantra",
+        "number": 15,
+        "country": "TH",
+        "uuid": "fa8ac04c-8fa2-4c43-9aa5-cc79b1f35fb9"
+      },
+      "team": {
+        "name": "Honda HRC Castrol"
+      },
+      "manufacturer": "Honda"
+    },
+    {
+      "position": 28,
+      "points": 0,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": 0,
+      "position_change": -1,
+      "last_positions": {
+        "AUT": null,
+        "RSM": null,
+        "ARA": null
+      },
+      "rider": {
         "full_name": "Cal Crutchlow",
         "number": 35,
         "country": "GB",
@@ -622,12 +645,12 @@
       "manufacturer": "Honda"
     },
     {
-      "position": 28,
+      "position": 29,
       "points": 0,
       "race_wins": 0,
       "podiums": 0,
       "sprint_wins": 0,
-      "position_change": 0,
+      "position_change": -1,
       "last_positions": {
         "AUT": null,
         "RSM": null,
@@ -645,12 +668,12 @@
       "manufacturer": "KTM"
     },
     {
-      "position": 29,
+      "position": 30,
       "points": 0,
       "race_wins": 0,
       "podiums": 0,
       "sprint_wins": 0,
-      "position_change": 0,
+      "position_change": -1,
       "last_positions": {
         "AUT": null,
         "RSM": null,
@@ -668,12 +691,12 @@
       "manufacturer": "Aprilia"
     },
     {
-      "position": 30,
+      "position": 31,
       "points": 0,
       "race_wins": 0,
       "podiums": 0,
       "sprint_wins": 0,
-      "position_change": 0,
+      "position_change": -1,
       "last_positions": {
         "AUT": null,
         "RSM": null,

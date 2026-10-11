@@ -5,7 +5,17 @@
 // gp : code court du Grand Prix concerné (shortname dans data/calendar.json : AUT, JPN, FRA...),
 // l'article apparaît alors sur la fiche du GP dans le calendrier. À omettre pour un article hors GP.
 const ARTICLES = [
-    {
+   {
+    slug: 'sprint-mandalika',
+    title: 'Résumé de la journée du vendredi et du samedi à Mandalika',
+    excerpt: 'Résumé complet de la journée du vendredi et du samedi sur le circuit de Mandalika.',
+    category: 'motogp',       
+    gp: 'IND',                 
+    date: '2026-10-11',       
+    author: 'Lucas',
+    image: 'https://lemagsportauto.ouest-france.fr/wp-content/uploads/2026/10/SI202510050495-1.jpg'
+   },  
+{
     slug: '850cc',
     title: 'Tests privés 850cc',
     excerpt: 'Résumé du dernier test privé 850cc sur le circuit de Spielberg.',

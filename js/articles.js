@@ -10,7 +10,7 @@ const ARTICLES = [
     title: 'Résumé de la journée du vendredi et du samedi à Mandalika',
     excerpt: 'Résumé complet de la journée du vendredi et du samedi sur le circuit de Mandalika.',
     category: 'motogp',       
-    gp: 'IND',                 
+    gp: 'INA',                 
     date: '2026-10-11',       
     author: 'Lucas',
     image: 'https://lemagsportauto.ouest-france.fr/wp-content/uploads/2026/10/SI202510050495-1.jpg'

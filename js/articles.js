@@ -5,7 +5,7 @@
 // gp : code court du Grand Prix concerné (shortname dans data/calendar.json : AUT, JPN, FRA...),
 // l'article apparaît alors sur la fiche du GP dans le calendrier. À omettre pour un article hors GP.
 const ARTICLES = [
-   {
+ {
     slug: 'sprint-mandalika',
     title: 'Résumé de la journée du vendredi et du samedi à Mandalika',
     excerpt: 'Résumé complet de la journée du vendredi et du samedi sur le circuit de Mandalika.',

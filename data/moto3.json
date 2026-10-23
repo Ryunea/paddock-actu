@@ -96,7 +96,7 @@
       "position": 5,
       "points": 148,
       "race_wins": 0,
-      "podiums": 0,
+      "podiums": 2,
       "sprint_wins": null,
       "position_change": 12,
       "last_positions": {
@@ -119,7 +119,7 @@
       "position": 6,
       "points": 140,
       "race_wins": 0,
-      "podiums": 4,
+      "podiums": 3,
       "sprint_wins": null,
       "position_change": -1,
       "last_positions": {
@@ -165,7 +165,7 @@
       "position": 8,
       "points": 111,
       "race_wins": 0,
-      "podiums": 2,
+      "podiums": 1,
       "sprint_wins": null,
       "position_change": 0,
       "last_positions": {

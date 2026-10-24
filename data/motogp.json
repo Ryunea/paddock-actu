@@ -2,34 +2,11 @@
   "classification": [
     {
       "position": 1,
-      "points": 355,
-      "race_wins": 1,
-      "podiums": 9,
-      "sprint_wins": 4,
-      "position_change": 1,
-      "last_positions": {
-        "INA": 3,
-        "JPN": 2,
-        "AUT": 2
-      },
-      "rider": {
-        "full_name": "Jorge Martin",
-        "number": 89,
-        "country": "ES",
-        "uuid": "5b9af34e-da94-4ca2-9c4c-6be0fc8b1bbc"
-      },
-      "team": {
-        "name": "Aprilia Racing"
-      },
-      "manufacturer": "Aprilia"
-    },
-    {
-      "position": 2,
-      "points": 353,
+      "points": 365,
       "race_wins": 6,
       "podiums": 6,
-      "sprint_wins": 8,
-      "position_change": -1,
+      "sprint_wins": 9,
+      "position_change": 1,
       "last_positions": {
         "INA": 6,
         "JPN": 1,
@@ -47,8 +24,31 @@
       "manufacturer": "Ducati"
     },
     {
+      "position": 2,
+      "points": 355,
+      "race_wins": 1,
+      "podiums": 9,
+      "sprint_wins": 4,
+      "position_change": -1,
+      "last_positions": {
+        "INA": 3,
+        "JPN": 2,
+        "AUT": 2
+      },
+      "rider": {
+        "full_name": "Jorge Martin",
+        "number": 89,
+        "country": "ES",
+        "uuid": "5b9af34e-da94-4ca2-9c4c-6be0fc8b1bbc"
+      },
+      "team": {
+        "name": "Aprilia Racing"
+      },
+      "manufacturer": "Aprilia"
+    },
+    {
       "position": 3,
-      "points": 309,
+      "points": 315,
       "race_wins": 5,
       "podiums": 11,
       "sprint_wins": 0,
@@ -71,34 +71,11 @@
     },
     {
       "position": 4,
-      "points": 259,
-      "race_wins": 1,
-      "podiums": 4,
-      "sprint_wins": 0,
-      "position_change": 1,
-      "last_positions": {
-        "INA": 4,
-        "JPN": 6,
-        "AUT": 4
-      },
-      "rider": {
-        "full_name": "Ai Ogura",
-        "number": 79,
-        "country": "JP",
-        "uuid": "244b6f51-ac33-40ee-876d-9401dc9d1346"
-      },
-      "team": {
-        "name": "SuperFile Trackhouse MotoGP Team"
-      },
-      "manufacturer": "Aprilia"
-    },
-    {
-      "position": 5,
-      "points": 258,
+      "points": 263,
       "race_wins": 1,
       "podiums": 6,
       "sprint_wins": 1,
-      "position_change": -1,
+      "position_change": 1,
       "last_positions": {
         "INA": 5,
         "JPN": 7,
@@ -116,8 +93,31 @@
       "manufacturer": "KTM"
     },
     {
+      "position": 5,
+      "points": 259,
+      "race_wins": 1,
+      "podiums": 4,
+      "sprint_wins": 0,
+      "position_change": -1,
+      "last_positions": {
+        "INA": 4,
+        "JPN": 6,
+        "AUT": 4
+      },
+      "rider": {
+        "full_name": "Ai Ogura",
+        "number": 79,
+        "country": "JP",
+        "uuid": "244b6f51-ac33-40ee-876d-9401dc9d1346"
+      },
+      "team": {
+        "name": "SuperFile Trackhouse MotoGP Team"
+      },
+      "manufacturer": "Aprilia"
+    },
+    {
       "position": 6,
-      "points": 245,
+      "points": 252,
       "race_wins": 1,
       "podiums": 3,
       "sprint_wins": 0,
@@ -163,11 +163,11 @@
     },
     {
       "position": 8,
-      "points": 172,
+      "points": 181,
       "race_wins": 1,
       "podiums": 2,
       "sprint_wins": 1,
-      "position_change": 1,
+      "position_change": 0,
       "last_positions": {
         "INA": 7,
         "JPN": null,
@@ -190,7 +190,7 @@
       "race_wins": 0,
       "podiums": 4,
       "sprint_wins": 1,
-      "position_change": -1,
+      "position_change": 0,
       "last_positions": {
         "INA": null,
         "JPN": 8,
@@ -278,7 +278,7 @@
     },
     {
       "position": 13,
-      "points": 104,
+      "points": 108,
       "race_wins": 0,
       "podiums": 0,
       "sprint_wins": 0,
@@ -301,34 +301,11 @@
     },
     {
       "position": 14,
-      "points": 74,
+      "points": 76,
       "race_wins": 0,
       "podiums": 0,
       "sprint_wins": 0,
       "position_change": 1,
-      "last_positions": {
-        "INA": 9,
-        "JPN": 12,
-        "AUT": 17
-      },
-      "rider": {
-        "full_name": "Fabio Quartararo",
-        "number": 20,
-        "country": "FR",
-        "uuid": "bf95d959-6a60-44f1-84b5-ded861e62578"
-      },
-      "team": {
-        "name": "Monster Energy Yamaha MotoGP Team"
-      },
-      "manufacturer": "Yamaha"
-    },
-    {
-      "position": 15,
-      "points": 74,
-      "race_wins": 0,
-      "podiums": 0,
-      "sprint_wins": 0,
-      "position_change": -1,
       "last_positions": {
         "INA": 16,
         "JPN": null,
@@ -344,6 +321,29 @@
         "name": "Pro Honda LCR"
       },
       "manufacturer": "Honda"
+    },
+    {
+      "position": 15,
+      "points": 74,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": 0,
+      "position_change": -1,
+      "last_positions": {
+        "INA": 9,
+        "JPN": 12,
+        "AUT": 17
+      },
+      "rider": {
+        "full_name": "Fabio Quartararo",
+        "number": 20,
+        "country": "FR",
+        "uuid": "bf95d959-6a60-44f1-84b5-ded861e62578"
+      },
+      "team": {
+        "name": "Monster Energy Yamaha MotoGP Team"
+      },
+      "manufacturer": "Yamaha"
     },
     {
       "position": 16,
@@ -416,7 +416,7 @@
     },
     {
       "position": 19,
-      "points": 28,
+      "points": 31,
       "race_wins": 0,
       "podiums": 0,
       "sprint_wins": 0,
@@ -508,7 +508,7 @@
     },
     {
       "position": 23,
-      "points": 9,
+      "points": 10,
       "race_wins": 0,
       "podiums": 0,
       "sprint_wins": 0,
@@ -548,7 +548,7 @@
         "uuid": "eb7f90b1-9373-4089-b2f5-adbc234a3526"
       },
       "team": {
-        "name": "Yamaha Factory Racing"
+        "name": "Prima Pramac Yamaha MotoGP"
       },
       "manufacturer": "Yamaha"
     },

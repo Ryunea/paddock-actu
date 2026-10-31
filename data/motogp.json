@@ -2,11 +2,11 @@
   "classification": [
     {
       "position": 1,
-      "points": 365,
+      "points": 374,
       "race_wins": 6,
       "podiums": 6,
       "sprint_wins": 9,
-      "position_change": 1,
+      "position_change": 0,
       "last_positions": {
         "INA": 6,
         "JPN": 1,
@@ -29,7 +29,7 @@
       "race_wins": 1,
       "podiums": 9,
       "sprint_wins": 4,
-      "position_change": -1,
+      "position_change": 0,
       "last_positions": {
         "INA": 3,
         "JPN": 2,
@@ -48,7 +48,7 @@
     },
     {
       "position": 3,
-      "points": 315,
+      "points": 322,
       "race_wins": 5,
       "podiums": 11,
       "sprint_wins": 0,
@@ -71,11 +71,11 @@
     },
     {
       "position": 4,
-      "points": 263,
+      "points": 275,
       "race_wins": 1,
       "podiums": 6,
-      "sprint_wins": 1,
-      "position_change": 1,
+      "sprint_wins": 2,
+      "position_change": 0,
       "last_positions": {
         "INA": 5,
         "JPN": 7,
@@ -94,11 +94,11 @@
     },
     {
       "position": 5,
-      "points": 259,
+      "points": 265,
       "race_wins": 1,
       "podiums": 4,
       "sprint_wins": 0,
-      "position_change": -1,
+      "position_change": 0,
       "last_positions": {
         "INA": 4,
         "JPN": 6,
@@ -117,7 +117,7 @@
     },
     {
       "position": 6,
-      "points": 252,
+      "points": 257,
       "race_wins": 1,
       "podiums": 3,
       "sprint_wins": 0,
@@ -186,7 +186,7 @@
     },
     {
       "position": 9,
-      "points": 166,
+      "points": 170,
       "race_wins": 0,
       "podiums": 4,
       "sprint_wins": 1,
@@ -232,7 +232,7 @@
     },
     {
       "position": 11,
-      "points": 122,
+      "points": 123,
       "race_wins": 0,
       "podiums": 0,
       "sprint_wins": 0,
@@ -255,34 +255,11 @@
     },
     {
       "position": 12,
-      "points": 108,
+      "points": 111,
       "race_wins": 0,
       "podiums": 0,
       "sprint_wins": 0,
-      "position_change": 0,
-      "last_positions": {
-        "INA": 12,
-        "JPN": 10,
-        "AUT": 14
-      },
-      "rider": {
-        "full_name": "Luca Marini",
-        "number": 10,
-        "country": "IT",
-        "uuid": "5dfc20db-c3c4-4ecd-9c7c-f6cfd042031a"
-      },
-      "team": {
-        "name": "Honda HRC Castrol"
-      },
-      "manufacturer": "Honda"
-    },
-    {
-      "position": 13,
-      "points": 108,
-      "race_wins": 0,
-      "podiums": 0,
-      "sprint_wins": 0,
-      "position_change": 0,
+      "position_change": 1,
       "last_positions": {
         "INA": 11,
         "JPN": 11,
@@ -300,12 +277,35 @@
       "manufacturer": "KTM"
     },
     {
-      "position": 14,
-      "points": 76,
+      "position": 13,
+      "points": 108,
       "race_wins": 0,
       "podiums": 0,
       "sprint_wins": 0,
-      "position_change": 1,
+      "position_change": -1,
+      "last_positions": {
+        "INA": 12,
+        "JPN": 10,
+        "AUT": 14
+      },
+      "rider": {
+        "full_name": "Luca Marini",
+        "number": 10,
+        "country": "IT",
+        "uuid": "5dfc20db-c3c4-4ecd-9c7c-f6cfd042031a"
+      },
+      "team": {
+        "name": "Honda HRC Castrol"
+      },
+      "manufacturer": "Honda"
+    },
+    {
+      "position": 14,
+      "points": 78,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": 0,
+      "position_change": 0,
       "last_positions": {
         "INA": 16,
         "JPN": null,
@@ -328,7 +328,7 @@
       "race_wins": 0,
       "podiums": 0,
       "sprint_wins": 0,
-      "position_change": -1,
+      "position_change": 0,
       "last_positions": {
         "INA": 9,
         "JPN": 12,

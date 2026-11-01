@@ -2,15 +2,15 @@
   "classification": [
     {
       "position": 1,
-      "points": 351,
-      "race_wins": 10,
-      "podiums": 15,
+      "points": 376,
+      "race_wins": 11,
+      "podiums": 16,
       "sprint_wins": null,
       "position_change": 0,
       "last_positions": {
+        "MAL": 1,
         "INA": 1,
-        "JPN": 2,
-        "AUT": 1
+        "JPN": 2
       },
       "rider": {
         "full_name": "Maximo Quiles",
@@ -25,15 +25,15 @@
     },
     {
       "position": 2,
-      "points": 217,
+      "points": 228,
       "race_wins": 3,
       "podiums": 8,
       "sprint_wins": null,
       "position_change": 0,
       "last_positions": {
+        "MAL": 5,
         "INA": 2,
-        "JPN": 1,
-        "AUT": null
+        "JPN": 1
       },
       "rider": {
         "full_name": "David Almansa",
@@ -48,15 +48,15 @@
     },
     {
       "position": 3,
-      "points": 198,
+      "points": 205,
       "race_wins": 2,
       "podiums": 6,
       "sprint_wins": null,
-      "position_change": 1,
+      "position_change": 0,
       "last_positions": {
+        "MAL": 9,
         "INA": 3,
-        "JPN": 4,
-        "AUT": 2
+        "JPN": 4
       },
       "rider": {
         "full_name": "Brian Uriarte",
@@ -71,15 +71,15 @@
     },
     {
       "position": 4,
-      "points": 189,
+      "points": 205,
       "race_wins": 0,
-      "podiums": 7,
+      "podiums": 8,
       "sprint_wins": null,
-      "position_change": -1,
+      "position_change": 0,
       "last_positions": {
+        "MAL": 3,
         "INA": null,
-        "JPN": 3,
-        "AUT": 3
+        "JPN": 3
       },
       "rider": {
         "full_name": "Alvaro Carpe",
@@ -94,15 +94,15 @@
     },
     {
       "position": 5,
-      "points": 148,
+      "points": 157,
       "race_wins": 0,
       "podiums": 2,
       "sprint_wins": null,
-      "position_change": 12,
+      "position_change": 0,
       "last_positions": {
+        "MAL": 7,
         "INA": 7,
-        "JPN": 13,
-        "AUT": null
+        "JPN": 13
       },
       "rider": {
         "full_name": "Adrian Fernandez",
@@ -121,11 +121,11 @@
       "race_wins": 0,
       "podiums": 3,
       "sprint_wins": null,
-      "position_change": -1,
+      "position_change": 0,
       "last_positions": {
+        "MAL": 20,
         "INA": 18,
-        "JPN": 18,
-        "AUT": 8
+        "JPN": 18
       },
       "rider": {
         "full_name": "Marco Morelli",
@@ -140,38 +140,15 @@
     },
     {
       "position": 7,
-      "points": 120,
+      "points": 131,
       "race_wins": 0,
       "podiums": 2,
       "sprint_wins": null,
-      "position_change": -1,
+      "position_change": 1,
       "last_positions": {
-        "INA": 13,
-        "JPN": 14,
-        "AUT": 12
-      },
-      "rider": {
-        "full_name": "Valentin Perrone",
-        "number": 73,
-        "country": "AR",
-        "uuid": "c1dbeba7-8a56-40fd-ab57-cd6eb37e63f3"
-      },
-      "team": {
-        "name": "Red Bull KTM Tech3"
-      },
-      "manufacturer": "KTM"
-    },
-    {
-      "position": 8,
-      "points": 111,
-      "race_wins": 0,
-      "podiums": 1,
-      "sprint_wins": null,
-      "position_change": 0,
-      "last_positions": {
+        "MAL": 2,
         "INA": 6,
-        "JPN": 11,
-        "AUT": 13
+        "JPN": 11
       },
       "rider": {
         "full_name": "Veda Pratama",
@@ -185,16 +162,39 @@
       "manufacturer": "Honda"
     },
     {
+      "position": 8,
+      "points": 121,
+      "race_wins": 0,
+      "podiums": 2,
+      "sprint_wins": null,
+      "position_change": -1,
+      "last_positions": {
+        "MAL": 15,
+        "INA": 13,
+        "JPN": 14
+      },
+      "rider": {
+        "full_name": "Valentin Perrone",
+        "number": 73,
+        "country": "AR",
+        "uuid": "c1dbeba7-8a56-40fd-ab57-cd6eb37e63f3"
+      },
+      "team": {
+        "name": "Red Bull KTM Tech3"
+      },
+      "manufacturer": "KTM"
+    },
+    {
       "position": 9,
-      "points": 103,
+      "points": 116,
       "race_wins": 1,
       "podiums": 2,
       "sprint_wins": null,
-      "position_change": -2,
+      "position_change": 0,
       "last_positions": {
+        "MAL": 4,
         "INA": 14,
-        "JPN": 12,
-        "AUT": 9
+        "JPN": 12
       },
       "rider": {
         "full_name": "Hakim Danish",
@@ -213,11 +213,11 @@
       "race_wins": 0,
       "podiums": 2,
       "sprint_wins": null,
-      "position_change": -1,
+      "position_change": 0,
       "last_positions": {
+        "MAL": null,
         "INA": 4,
-        "JPN": 6,
-        "AUT": 14
+        "JPN": 6
       },
       "rider": {
         "full_name": "Matteo Bertelle",
@@ -236,11 +236,11 @@
       "race_wins": 0,
       "podiums": 0,
       "sprint_wins": null,
-      "position_change": -1,
+      "position_change": 0,
       "last_positions": {
+        "MAL": null,
         "INA": 5,
-        "JPN": 5,
-        "AUT": null
+        "JPN": 5
       },
       "rider": {
         "full_name": "Rico Salmela",
@@ -255,38 +255,15 @@
     },
     {
       "position": 12,
-      "points": 78,
-      "race_wins": 0,
-      "podiums": 0,
-      "sprint_wins": null,
-      "position_change": -1,
-      "last_positions": {
-        "INA": 12,
-        "JPN": 10,
-        "AUT": 7
-      },
-      "rider": {
-        "full_name": "Adrian Cruces",
-        "number": 11,
-        "country": "ES",
-        "uuid": "769510fc-e823-4bf1-8cda-08c1873935e6"
-      },
-      "team": {
-        "name": "CIP Green Power"
-      },
-      "manufacturer": "KTM"
-    },
-    {
-      "position": 13,
-      "points": 77,
+      "points": 81,
       "race_wins": 1,
       "podiums": 1,
       "sprint_wins": null,
-      "position_change": -1,
+      "position_change": 1,
       "last_positions": {
+        "MAL": 12,
         "INA": 8,
-        "JPN": null,
-        "AUT": 5
+        "JPN": null
       },
       "rider": {
         "full_name": "Guido Pini",
@@ -300,16 +277,39 @@
       "manufacturer": "Honda"
     },
     {
-      "position": 14,
-      "points": 68,
+      "position": 13,
+      "points": 80,
       "race_wins": 0,
       "podiums": 0,
       "sprint_wins": null,
-      "position_change": 1,
+      "position_change": -1,
       "last_positions": {
+        "MAL": 14,
+        "INA": 12,
+        "JPN": 10
+      },
+      "rider": {
+        "full_name": "Adrian Cruces",
+        "number": 11,
+        "country": "ES",
+        "uuid": "769510fc-e823-4bf1-8cda-08c1873935e6"
+      },
+      "team": {
+        "name": "CIP Green Power"
+      },
+      "manufacturer": "KTM"
+    },
+    {
+      "position": 14,
+      "points": 78,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": null,
+      "position_change": 0,
+      "last_positions": {
+        "MAL": 6,
         "INA": 9,
-        "JPN": 9,
-        "AUT": 16
+        "JPN": 9
       },
       "rider": {
         "full_name": "Joel Esteban",
@@ -328,57 +328,11 @@
       "race_wins": 0,
       "podiums": 0,
       "sprint_wins": null,
-      "position_change": -2,
+      "position_change": 2,
       "last_positions": {
-        "INA": null,
-        "JPN": 15,
-        "AUT": 6
-      },
-      "rider": {
-        "full_name": "Casey O'gorman",
-        "number": 67,
-        "country": "IE",
-        "uuid": "b909706a-1f29-4f38-8a76-40b1fe651d9c"
-      },
-      "team": {
-        "name": "SIC58 Squadra Corse"
-      },
-      "manufacturer": "Honda"
-    },
-    {
-      "position": 16,
-      "points": 64,
-      "race_wins": 0,
-      "podiums": 0,
-      "sprint_wins": null,
-      "position_change": -2,
-      "last_positions": {
-        "INA": null,
-        "JPN": 17,
-        "AUT": 11
-      },
-      "rider": {
-        "full_name": "Joel Kelso",
-        "number": 66,
-        "country": "AU",
-        "uuid": "5b5fb07a-f0b6-4f7f-9533-18cad7f0c8f2"
-      },
-      "team": {
-        "name": "GRYD Racing"
-      },
-      "manufacturer": "Honda"
-    },
-    {
-      "position": 17,
-      "points": 60,
-      "race_wins": 0,
-      "podiums": 0,
-      "sprint_wins": null,
-      "position_change": -1,
-      "last_positions": {
+        "MAL": 10,
         "INA": 19,
-        "JPN": null,
-        "AUT": 4
+        "JPN": null
       },
       "rider": {
         "full_name": "Eddie O'shea",
@@ -392,16 +346,39 @@
       "manufacturer": "Honda"
     },
     {
-      "position": 18,
-      "points": 56,
+      "position": 16,
+      "points": 66,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": null,
+      "position_change": -1,
+      "last_positions": {
+        "MAL": 16,
+        "INA": null,
+        "JPN": 15
+      },
+      "rider": {
+        "full_name": "Casey O'gorman",
+        "number": 67,
+        "country": "IE",
+        "uuid": "b909706a-1f29-4f38-8a76-40b1fe651d9c"
+      },
+      "team": {
+        "name": "SIC58 Squadra Corse"
+      },
+      "manufacturer": "Honda"
+    },
+    {
+      "position": 17,
+      "points": 64,
       "race_wins": 0,
       "podiums": 2,
       "sprint_wins": null,
-      "position_change": 0,
+      "position_change": 1,
       "last_positions": {
+        "MAL": 8,
         "INA": null,
-        "JPN": 7,
-        "AUT": null
+        "JPN": 7
       },
       "rider": {
         "full_name": "David Muñoz",
@@ -415,6 +392,29 @@
       "manufacturer": "KTM"
     },
     {
+      "position": 18,
+      "points": 64,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": null,
+      "position_change": -2,
+      "last_positions": {
+        "MAL": null,
+        "INA": null,
+        "JPN": 17
+      },
+      "rider": {
+        "full_name": "Joel Kelso",
+        "number": 66,
+        "country": "AU",
+        "uuid": "5b5fb07a-f0b6-4f7f-9533-18cad7f0c8f2"
+      },
+      "team": {
+        "name": "GRYD Racing"
+      },
+      "manufacturer": "Honda"
+    },
+    {
       "position": 19,
       "points": 48,
       "race_wins": 0,
@@ -422,9 +422,9 @@
       "sprint_wins": null,
       "position_change": 0,
       "last_positions": {
+        "MAL": null,
         "INA": 15,
-        "JPN": 19,
-        "AUT": 21
+        "JPN": 19
       },
       "rider": {
         "full_name": "Jesus Rios",
@@ -439,15 +439,15 @@
     },
     {
       "position": 20,
-      "points": 41,
+      "points": 46,
       "race_wins": 0,
       "podiums": 0,
       "sprint_wins": null,
       "position_change": 0,
       "last_positions": {
+        "MAL": 11,
         "INA": 11,
-        "JPN": 8,
-        "AUT": 10
+        "JPN": 8
       },
       "rider": {
         "full_name": "Ryusei Yamanaka",
@@ -468,9 +468,9 @@
       "sprint_wins": null,
       "position_change": 0,
       "last_positions": {
+        "MAL": null,
         "INA": 10,
-        "JPN": 20,
-        "AUT": 15
+        "JPN": 20
       },
       "rider": {
         "full_name": "Scott Ogden",
@@ -491,9 +491,9 @@
       "sprint_wins": null,
       "position_change": 0,
       "last_positions": {
+        "MAL": null,
         "INA": null,
-        "JPN": null,
-        "AUT": null
+        "JPN": null
       },
       "rider": {
         "full_name": "David Gonzalez",
@@ -514,9 +514,9 @@
       "sprint_wins": null,
       "position_change": 0,
       "last_positions": {
+        "MAL": null,
         "INA": null,
-        "JPN": null,
-        "AUT": 17
+        "JPN": null
       },
       "rider": {
         "full_name": "Marcos Uriarte",
@@ -537,9 +537,9 @@
       "sprint_wins": null,
       "position_change": 0,
       "last_positions": {
+        "MAL": null,
         "INA": null,
-        "JPN": null,
-        "AUT": null
+        "JPN": null
       },
       "rider": {
         "full_name": "Cormac Buchanan",
@@ -554,61 +554,15 @@
     },
     {
       "position": 25,
-      "points": 2,
-      "race_wins": 0,
-      "podiums": 0,
-      "sprint_wins": null,
-      "position_change": 0,
-      "last_positions": {
-        "INA": null,
-        "JPN": null,
-        "AUT": 20
-      },
-      "rider": {
-        "full_name": "Leo Rammerstorfer",
-        "number": 5,
-        "country": "AT",
-        "uuid": "8aef18e2-3cb9-4321-ba88-2eeac2b7a7f3"
-      },
-      "team": {
-        "name": "SIC58 Squadra Corse"
-      },
-      "manufacturer": "Honda"
-    },
-    {
-      "position": 26,
-      "points": 1,
+      "points": 3,
       "race_wins": 0,
       "podiums": 0,
       "sprint_wins": null,
       "position_change": 2,
       "last_positions": {
-        "INA": 17,
-        "JPN": null,
-        "AUT": null
-      },
-      "rider": {
-        "full_name": "Kiattisak Singhapong",
-        "number": 85,
-        "country": "TH",
-        "uuid": "d0314e82-c2fc-4e5d-9237-c3b2b65273f2"
-      },
-      "team": {
-        "name": "Rivacold Snipers Team"
-      },
-      "manufacturer": "Honda"
-    },
-    {
-      "position": 27,
-      "points": 0,
-      "race_wins": 0,
-      "podiums": 0,
-      "sprint_wins": null,
-      "position_change": -1,
-      "last_positions": {
+        "MAL": 13,
         "INA": 16,
-        "JPN": 21,
-        "AUT": 18
+        "JPN": 21
       },
       "rider": {
         "full_name": "Zen Mitani",
@@ -622,16 +576,62 @@
       "manufacturer": "Honda"
     },
     {
-      "position": 28,
-      "points": 0,
+      "position": 26,
+      "points": 2,
       "race_wins": 0,
       "podiums": 0,
       "sprint_wins": null,
       "position_change": -1,
       "last_positions": {
+        "MAL": 18,
+        "INA": null,
+        "JPN": null
+      },
+      "rider": {
+        "full_name": "Leo Rammerstorfer",
+        "number": 5,
+        "country": "AT",
+        "uuid": "8aef18e2-3cb9-4321-ba88-2eeac2b7a7f3"
+      },
+      "team": {
+        "name": "SIC58 Squadra Corse"
+      },
+      "manufacturer": "Honda"
+    },
+    {
+      "position": 27,
+      "points": 1,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": null,
+      "position_change": -1,
+      "last_positions": {
+        "MAL": 17,
+        "INA": 17,
+        "JPN": null
+      },
+      "rider": {
+        "full_name": "Kiattisak Singhapong",
+        "number": 85,
+        "country": "TH",
+        "uuid": "d0314e82-c2fc-4e5d-9237-c3b2b65273f2"
+      },
+      "team": {
+        "name": "Rivacold Snipers Team"
+      },
+      "manufacturer": "Honda"
+    },
+    {
+      "position": 28,
+      "points": 0,
+      "race_wins": 0,
+      "podiums": 0,
+      "sprint_wins": null,
+      "position_change": 0,
+      "last_positions": {
+        "MAL": 19,
         "INA": 20,
-        "JPN": 22,
-        "AUT": 19
+        "JPN": 22
       },
       "rider": {
         "full_name": "Ruche Moodley",
@@ -650,11 +650,11 @@
       "race_wins": 0,
       "podiums": 0,
       "sprint_wins": null,
-      "position_change": 1,
+      "position_change": 0,
       "last_positions": {
+        "MAL": null,
         "INA": null,
-        "JPN": 16,
-        "AUT": null
+        "JPN": 16
       },
       "rider": {
         "full_name": "Ryota Ogiwara",
@@ -673,11 +673,11 @@
       "race_wins": 0,
       "podiums": 0,
       "sprint_wins": null,
-      "position_change": -1,
+      "position_change": 0,
       "last_positions": {
+        "MAL": null,
         "INA": null,
-        "JPN": null,
-        "AUT": 22
+        "JPN": null
       },
       "rider": {
         "full_name": "Nicola Carraro",
@@ -698,9 +698,9 @@
       "sprint_wins": null,
       "position_change": 0,
       "last_positions": {
+        "MAL": null,
         "INA": null,
-        "JPN": null,
-        "AUT": null
+        "JPN": null
       },
       "rider": {
         "full_name": "Leonardo Abruzzo",
@@ -721,9 +721,9 @@
       "sprint_wins": null,
       "position_change": 0,
       "last_positions": {
+        "MAL": null,
         "INA": null,
-        "JPN": null,
-        "AUT": null
+        "JPN": null
       },
       "rider": {
         "full_name": "Eduardo Gutierrez",

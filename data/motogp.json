@@ -25,7 +25,7 @@
     },
     {
       "position": 2,
-      "points": 371,
+      "points": 376,
       "race_wins": 1,
       "podiums": 9,
       "sprint_wins": 4,
@@ -48,10 +48,10 @@
     },
     {
       "position": 3,
-      "points": 357,
+      "points": 369,
       "race_wins": 6,
       "podiums": 12,
-      "sprint_wins": 0,
+      "sprint_wins": 1,
       "position_change": 0,
       "last_positions": {
         "QAT": 1,
@@ -71,7 +71,7 @@
     },
     {
       "position": 4,
-      "points": 309,
+      "points": 315,
       "race_wins": 1,
       "podiums": 7,
       "sprint_wins": 2,
@@ -94,7 +94,7 @@
     },
     {
       "position": 5,
-      "points": 294,
+      "points": 298,
       "race_wins": 1,
       "podiums": 4,
       "sprint_wins": 0,
@@ -117,7 +117,7 @@
     },
     {
       "position": 6,
-      "points": 282,
+      "points": 285,
       "race_wins": 1,
       "podiums": 3,
       "sprint_wins": 0,
@@ -140,7 +140,7 @@
     },
     {
       "position": 7,
-      "points": 258,
+      "points": 267,
       "race_wins": 1,
       "podiums": 6,
       "sprint_wins": 2,
@@ -163,7 +163,7 @@
     },
     {
       "position": 8,
-      "points": 197,
+      "points": 204,
       "race_wins": 1,
       "podiums": 3,
       "sprint_wins": 1,
@@ -301,7 +301,7 @@
     },
     {
       "position": 14,
-      "points": 79,
+      "points": 81,
       "race_wins": 0,
       "podiums": 0,
       "sprint_wins": 0,
@@ -462,11 +462,11 @@
     },
     {
       "position": 21,
-      "points": 18,
+      "points": 19,
       "race_wins": 0,
       "podiums": 0,
       "sprint_wins": 0,
-      "position_change": 2,
+      "position_change": 0,
       "last_positions": {
         "QAT": 10,
         "MAL": 15,
@@ -479,7 +479,7 @@
         "uuid": "92d574d5-d064-4612-bf3e-421d01572512"
       },
       "team": {
-        "name": "BK8 Gresini Racing MotoGP"
+        "name": "Ducati Lenovo Team"
       },
       "manufacturer": "Ducati"
     },
@@ -489,7 +489,7 @@
       "race_wins": 0,
       "podiums": 0,
       "sprint_wins": 0,
-      "position_change": -1,
+      "position_change": 0,
       "last_positions": {
         "QAT": null,
         "MAL": null,
@@ -512,7 +512,7 @@
       "race_wins": 0,
       "podiums": 0,
       "sprint_wins": 0,
-      "position_change": -1,
+      "position_change": 0,
       "last_positions": {
         "QAT": 13,
         "MAL": 14,
@@ -627,7 +627,7 @@
       "race_wins": 0,
       "podiums": 0,
       "sprint_wins": 0,
-      "position_change": 1,
+      "position_change": 0,
       "last_positions": {
         "QAT": 14,
         "MAL": null,
@@ -650,7 +650,7 @@
       "race_wins": 0,
       "podiums": 0,
       "sprint_wins": 0,
-      "position_change": -1,
+      "position_change": 0,
       "last_positions": {
         "QAT": null,
         "MAL": null,
